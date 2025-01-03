@@ -1,5 +1,3 @@
-import Button from "./Button";
-
 export default function Header() {
   return (
     <header className="flex">

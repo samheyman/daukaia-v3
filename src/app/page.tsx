@@ -1,6 +1,3 @@
-import { Butcherman } from "next/font/google";
-import Image from "next/image";
-import Button from "./components/Button";
 import Hero from "./components/Hero";
 import WhatWeDo from "./components/WhatWeDo";
 import WhoWeAre from "./components/WhoWeAre";

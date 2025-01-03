@@ -15,9 +15,9 @@ export default function Betty() {
       </p>
       <p>
         <em>
-          "I'm proud of who I am. I have strong values, I am determined, I care
-          about my family and about doing good. I will always be grateful to
-          Daukaia."
+          &quot;I&apos;m proud of who I am. I have strong values, I am
+          determined, I care about my family and about doing good. I will always
+          be grateful to Daukaia.&quot;
         </em>{" "}
         - Betty, age 25
       </p>

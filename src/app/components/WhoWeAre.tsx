@@ -5,7 +5,7 @@ export default function WhoWeAre() {
       <p>
         We are a passionate collective of local and global changemakers
         committed to giving the children of Ocotal the opportunity of a
-        fulfilling life. Most of all, we're normal people wanting to make a
+        fulfilling life. Most of all, we&apos;re normal people wanting to make a
         difference.
       </p>
       <p>
