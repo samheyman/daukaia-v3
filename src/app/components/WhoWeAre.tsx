@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 export default function WhoWeAre() {
   return (
     <section className=" wrapper who-we-are">
