@@ -24,17 +24,9 @@ export default function WhatWeDo() {
           and the environment, transforming their world from the ground up.
         </p>
         <div className="buttons">
-          <Button text="Volunteer" path="/donate" type="primary" />
-          <Button text="Become an ambassador" path="/donate" type="primary" />
+          <Button text="Read more" path="/what-we-do" type="primary" />
         </div>
-        <div className="buttons">
-          <Button text="Daukaia for schools" path="/donate" type="primary" />
-          <Button
-            text="Partnerships with companies"
-            path="/donate"
-            type="primary"
-          />
-        </div>
+        
       </div>
     </section>
   );
