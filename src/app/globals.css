@@ -291,6 +291,12 @@ footer li {
 }
 .betty-container {
   display: flex;
+  flex-direction:column;
+}
+
+@media(min-width:768px){
+  .betty-container{
+    flex-direction;row;}
 }
 
 .betty .text {
