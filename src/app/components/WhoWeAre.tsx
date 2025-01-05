@@ -14,6 +14,9 @@ export default function WhoWeAre() {
           long-term impact through a holistic, grassroots approach that combines
           education, empowerment, and sustainable practices.
         </p>
+        <div className="buttons">
+          <Button text="Read more" path="/who-we-are" type="primary" />
+        </div>
       </div>
       <img src="./images/three-flowers.png" alt="Children playing" />
     </section>
