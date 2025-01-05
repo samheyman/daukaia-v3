@@ -3,8 +3,8 @@ export default function Header() {
     <header className="wrapper wrapper--full-width flex">
       <img className="logo" src="./images/logo.png" alt="Daukaia" />
       <ul>
-        <li>Who we are</li>
-        <li>What we do</li>
+        <li><Link href="/who-we-are">Who we are</Link></li>
+        <li><Link href="/what-we-do">What we do</Link></li>
         <li>Ignite change</li>
         <li className="accent">Donate</li>
       </ul>
