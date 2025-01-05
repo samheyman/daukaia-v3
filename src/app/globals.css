@@ -218,7 +218,6 @@ footer li {
 }
 
 .who-we-are {
-
   display: flex;
   flex-direction: column-reverse;
 }
