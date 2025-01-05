@@ -217,8 +217,9 @@ footer li {
 }
 
 .who-we-are {
-  display: flex;
+  flex-direction: column-reverse;
 }
+
 .what-we-do {
   display: flex;
 }
@@ -227,10 +228,18 @@ footer li {
   height: 80px;
 }
 
+.who-we-are img {
+  height: 80px;
+  
+}
+
 @media(min-width:768px) {
 .what-we-do img {
   height: 300px;
 }
+  .who-we-are {
+   height: 300px;
+    margin-left: 100px;
 }
 
 .who-we-are h1,
@@ -243,10 +252,7 @@ footer li {
   max-width: 62ch;
   padding-block: 1rem;
 }
-.who-we-are img {
-  height: 300px;
-  margin-left: 100px;
-}
+
 .what-we-do img {
   height: 300px;
   margin-right: 100px;
