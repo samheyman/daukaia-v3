@@ -87,6 +87,7 @@ footer {
   display: flex;
   height: 80px;
   display: flex;
+  flex-wrap:wrap;
   align-items: center;
   justify-content: space-between;
   color: #242323;
