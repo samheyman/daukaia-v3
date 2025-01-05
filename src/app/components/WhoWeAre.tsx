@@ -1,5 +1,5 @@
 import Button from "./Button";
-import Link from 'next/link'
+import Link from "next/link";
 
 export default function WhoWeAre() {
   return (
@@ -18,7 +18,7 @@ export default function WhoWeAre() {
           education, empowerment, and sustainable practices.
         </p>
         <div className="buttons">
-          <Link href="/who-we-are">Read more</Link>/>
+          <Link href="/who-we-are">Read more</Link>
         </div>
       </div>
       <img src="./images/three-flowers.png" alt="Children playing" />
