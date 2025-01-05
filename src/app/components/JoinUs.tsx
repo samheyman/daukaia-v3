@@ -2,7 +2,7 @@ import Button from "./Button";
 
 export default function JoinUs() {
   return (
-    <section className="join-us">
+    <section className="wrapper join-us">
       <h1>Join us!</h1>
       <p>
         We need passionate, innovative individuals like you to join us as
@@ -21,9 +21,11 @@ export default function JoinUs() {
         Discover more about our work and how you can make a lasting impact on a
         child’s life:
       </p>
-      <Button text="Learn more" path="/donate" type="primary" />
-      <Button text="Get involved" path="/donate" type="primary" />
-      <Button text="Donate" path="/donate" type="primary" />
+      <div className="buttons">
+        <Button text="Learn more" path="/donate" type="primary" />
+        <Button text="Get involved" path="/donate" type="primary" />
+        <Button text="Donate" path="/donate" type="primary" />
+      </div>
     </section>
   );
 }

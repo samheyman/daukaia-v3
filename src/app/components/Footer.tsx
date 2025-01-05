@@ -1,12 +1,14 @@
 export default function Footer() {
   return (
-    <footer>
-      <p>&copy; 2021 Daukaia</p>
-      <ul>
-        <li>Privacy Policy</li>
-        <li>Legal Notice</li>
-        <li>Reg Number</li>
-      </ul>
+    <footer className="">
+      <div>
+        <p>&copy; 2021 Daukaia</p>
+        <ul>
+          <li>Privacy Policy</li>
+          <li>Legal Notice</li>
+          <li>Reg Number</li>
+        </ul>
+      </div>
       <ul>
         <li>Facebook</li>
         <li>Instagram</li>

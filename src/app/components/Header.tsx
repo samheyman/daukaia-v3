@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="flex">
+    <header className="wrapper wrapper--full-width flex">
       <img className="logo" src="./images/logo.png" alt="Daukaia" />
       <ul>
         <li>Who we are</li>
