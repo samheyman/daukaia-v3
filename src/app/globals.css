@@ -60,6 +60,7 @@ h1 {
 
 header {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   margin: 0;
@@ -218,6 +219,7 @@ footer li {
 
 .who-we-are {
   display: flex;
+  flex-direction: column-reverse;
 }
 .what-we-do {
   display: flex;
