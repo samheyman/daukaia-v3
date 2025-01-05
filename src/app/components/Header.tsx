@@ -8,7 +8,7 @@ export default function Header() {
         <li><Link href="/who-we-are">Who we are</Link></li>
         <li><Link href="/what-we-do">What we do</Link></li>
         <li>Ignite change</li>
-        <li className="accent">Donate</li>
+        <li className="accent"><Link href="/donate">Donate</Link></li>
       </ul>
     </header>
   );
