@@ -45,6 +45,12 @@ h1 {
 
   width: min(var(--max-width), 100% - (2 * var(--padding)));
   margin-inline: auto;
+  display:flex;
+  flex-direction: column;
+}
+
+@media(min-width:768px){
+  flex-direction: row;
 }
 
 .wrapper--full-width {
@@ -217,7 +223,13 @@ footer li {
 }
 
 .what-we-do img {
+  height: 80px;
+}
+
+@media(min-width:768px) {
+.what-we-do img {
   height: 300px;
+}
 }
 
 .who-we-are h1,
