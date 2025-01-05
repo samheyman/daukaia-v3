@@ -4,7 +4,7 @@ export default function CasaPueblito() {
       <p>
         Proud partner of <em>Casa Pueblito</em>
       </p>
-      <img src="./images/casapueblito.png" alt="Casa Pueblito logo" />
+      <img src="./images/casaPueblito.png" alt="Casa Pueblito logo" />
     </section>
   );
 }
