@@ -296,7 +296,8 @@ footer li {
 
 @media(min-width:768px){
   .betty-container{
-    flex-direction;row;}
+    flex-direction:row;
+  }
 }
 
 .betty .text {
