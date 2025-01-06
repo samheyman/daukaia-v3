@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { geistSans, geistMono, inter, newseader } from "./fonts";
+import { geistSans, geistMono, inter } from "./fonts";
 
 export const metadata: Metadata = {
   title: "Daukaia",
