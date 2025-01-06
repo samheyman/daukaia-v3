@@ -45,12 +45,14 @@ h1 {
 
   width: min(var(--max-width), 100% - (2 * var(--padding)));
   margin-inline: auto;
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
 
-@media(min-width:768px){
-  flex-direction: row;
+@media (min-width: 768px) {
+  .wrapper {
+    flex-direction: row;
+  }
 }
 
 .wrapper--full-width {
@@ -88,7 +90,7 @@ footer {
   display: flex;
   height: 80px;
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   color: #242323;
@@ -137,6 +139,15 @@ footer li {
   object-fit: cover;
   overflow: hidden;
   /* max-height: 600px; */
+}
+
+.hero p {
+  font-size: 64px;
+}
+
+.hero span {
+  font-weight: 700;
+  font-style: italic;
 }
 
 .gradient-left {
@@ -229,10 +240,10 @@ footer li {
   height: 80px;
 }
 
-@media(min-width:768px) {
-.what-we-do img {
-  height: 300px;
-}
+@media (min-width: 768px) {
+  .what-we-do img {
+    height: 300px;
+  }
 }
 
 .who-we-are h1,
@@ -293,12 +304,12 @@ footer li {
 }
 .betty-container {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
 }
 
-@media(min-width:768px){
-  .betty-container{
-    flex-direction:row;
+@media (min-width: 768px) {
+  .betty-container {
+    flex-direction: row;
   }
 }
 

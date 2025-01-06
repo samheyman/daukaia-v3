@@ -1,3 +1,4 @@
+import { newseader } from "../fonts";
 import Button from "./Button";
 
 export default function Hero() {
@@ -12,11 +13,11 @@ export default function Hero() {
       </div>
       <div className="text-container">
         <div className="text">
-          <p>
-            Creating <em>safer lives</em>
+          <p className={newseader.className}>
+            Creating <span style={{ fontWeight: "bold" }}>safer lives</span>
           </p>
-          <p>
-            and <em>brighter futures</em>
+          <p className={newseader.className}>
+            and <span style={{ fontWeight: "bold" }}>brighter futures</span>
           </p>
           <Button text="Donate" path="/donate" type="neutral" />
         </div>
