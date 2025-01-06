@@ -4,6 +4,10 @@ export default function Betty() {
   return (
     <section className=" betty">
       <div className="betty-container">
+        <img
+          src="./images/betty.jpg"
+          alt="young girl standing outside against a wall and smiling"
+        />
         <div className="text">
           <p
             style={{ fontWeight: "bold", fontSize: 54 }}
@@ -27,10 +31,6 @@ export default function Betty() {
             - Betty, age 25
           </p>
         </div>
-        <img
-          src="./images/betty.jpg"
-          alt="young girl standing outside against a wall and smiling"
-        />
       </div>
     </section>
   );

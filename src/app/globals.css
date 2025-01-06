@@ -68,10 +68,9 @@ h1 {
 header {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+  align-items: flex-start;
+  justify-content: flex-start;
   margin: 1.5rem 0 0;
-
   padding-block: 1em;
   list-style: none;
   gap: 2rem;
@@ -80,8 +79,23 @@ header {
 
 header > ul {
   display: flex;
-  gap: 2rem;
-  padding-top: 1.2rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  header {
+    justify-content: space-between;
+    align-items: center;
+  }
+  header > ul {
+    flex-direction: row;
+    gap: 2rem;
+    width: fit-content;
+    padding-top: 1.2rem;
+  }
 }
 
 header > ul > li {
@@ -157,7 +171,7 @@ footer li {
 }
 
 .hero img {
-  height: 105%;
+  height: 107%;
   /* width: 100%; */
   display: block;
   object-fit: cover;
@@ -200,7 +214,7 @@ footer li {
 /* laptop > 1024px */
 @media (min-width: 1024px) {
   .hero .image-container {
-    width: 42%;
+    width: 50%;
   }
 
   .hero {
@@ -237,7 +251,7 @@ footer li {
   flex-direction: column;
   align-items: center;
   /* outline: 1px solid red; */
-  width: max-content;
+  /* width: max-content; */
 }
 
 .hero p {
@@ -365,7 +379,13 @@ footer li {
   justify-content: center;
   align-items: center;
   color: var(--clr-neutral-400);
-  font-size: 42px;
+  font-size: 1.25rem;
+}
+
+@media (min-width: 1024px) {
+  .meaning {
+    font-size: 42px;
+  }
 }
 
 .casapueblito {
@@ -374,17 +394,14 @@ footer li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: var(--clr-neutral-500);
+  font-size: 3rem;
+  color: var(--clr-neutral-400);
   margin-block: 5rem;
   padding: 2rem 0;
 }
 
 .casapueblito img {
   height: 100px;
-}
-
-.casapueblito {
-  font-size: 2rem;
 }
 
 .betty {
@@ -397,6 +414,11 @@ footer li {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+}
+
+.betty img {
+  /* border-radius: 35px; */
+  width: 100%;
 }
 
 @media (min-width: 1024px) {
