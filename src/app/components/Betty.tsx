@@ -1,9 +1,16 @@
+import { newseader } from "../fonts";
+
 export default function Betty() {
   return (
     <section className=" betty">
       <div className="betty-container">
         <div className="text">
-          <p style={{ fontWeight: "bold", fontSize: 54 }}>This is Betty.</p>
+          <p
+            style={{ fontWeight: "bold", fontSize: 54 }}
+            className={newseader.className}
+          >
+            This is Betty.
+          </p>
           <p>And this photo was taken when we first met her in 2012.</p>
           <p>
             We worked with Betty for three years to help her find her own voice,

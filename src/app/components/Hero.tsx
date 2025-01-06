@@ -14,12 +14,27 @@ export default function Hero() {
       <div className="text-container">
         <div className="text">
           <p className={newseader.className}>
-            Creating <span style={{ fontWeight: "bold" }}>safer lives</span>
+            Creating <span>safer lives</span>
           </p>
           <p className={newseader.className}>
-            and <span style={{ fontWeight: "bold" }}>brighter futures</span>
+            and <span>brighter futures</span>
           </p>
-          <Button text="Donate" path="/donate" type="neutral" />
+          <a
+            className="rounded-full border border-solid transition-colors flex items-center justify-center text-background gap-2 py-2 px-4 sm:px-9 hover:bg-clr-accent-500"
+            href="/donate"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              backgroundColor: "white",
+              color: "var(--clr-accent-500)",
+              textTransform: "uppercase",
+              fontWeight: 900,
+              maxWidth: "fit-content",
+              fontSize: 32,
+            }}
+          >
+            Donate
+          </a>{" "}
         </div>
       </div>
     </section>

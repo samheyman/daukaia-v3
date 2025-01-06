@@ -1,10 +1,11 @@
-import Link from "next/link";
+import { newseader } from "../fonts";
+import Button from "./Button";
 
 export default function WhoWeAre() {
   return (
     <section className=" wrapper who-we-are">
       <div>
-        <h1>Who we are</h1>
+        <h1 className={newseader.className}>Who we are</h1>
         <p>
           We are a passionate collective of local and global changemakers
           committed to giving the children of Ocotal the opportunity of a
@@ -17,7 +18,7 @@ export default function WhoWeAre() {
           education, empowerment, and sustainable practices.
         </p>
         <div className="buttons">
-          <Link href="/who-we-are">Read more</Link>
+          <Button text="Read more" path="/who-we-are" type="primary" />
         </div>
       </div>
       <img src="./images/three-flowers.png" alt="Children playing" />

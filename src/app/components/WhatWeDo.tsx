@@ -1,3 +1,4 @@
+import { newseader } from "../fonts";
 import Button from "./Button";
 
 export default function WhatWeDo() {
@@ -6,7 +7,7 @@ export default function WhatWeDo() {
       <img src="./images/flower-in-hands.png" alt="Children playing" />
 
       <div>
-        <h1>What we do</h1>
+        <h1 className={newseader.className}>What we do</h1>
         <p>
           We support children in Ocotal, Nicaragua, through education, health,
           personal development and community support so they can overcome
@@ -26,7 +27,6 @@ export default function WhatWeDo() {
         <div className="buttons">
           <Button text="Read more" path="/what-we-do" type="primary" />
         </div>
-        
       </div>
     </section>
   );

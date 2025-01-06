@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { geistSans, geistMono } from "./fonts";
+import { geistSans, geistMono, inter, newseader } from "./fonts";
 
 export const metadata: Metadata = {
   title: "Daukaia",
@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased ${inter.className}`}
       >
         <Header />
         <main>{children}</main>
