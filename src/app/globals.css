@@ -124,34 +124,73 @@ header .accent {
   color: var(--clr-neutral-500);
 }
 
+/* ***************
+ FOOTER SECTION
+ ****************/
+
 footer {
   background-color: var(--clr-neutral-300);
   display: flex;
-  height: 80px;
-  display: flex;
+  flex-direction: column;
+  justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  color: var(--clr-neutral-400);
-  font-size: 14px;
+  color: var(--clr-neutral-500);
+  padding-block: 2rem;
   padding-inline: var(--vertical-padding);
+  font-size: 0.75rem;
 }
 
-footer > div {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 1em;
+.copy {
+  display: block;
+  line-height: 2rem;
 }
 
-footer > ul,
-footer > div > ul {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
+.copy--md {
+  display: none;
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+@media (min-width: 1024px) {
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .copy {
+    display: none;
+  }
+
+  .copy--md {
+    display: inline-block;
+  }
+}
+
+footer ul {
+  display: inline-block !important;
+  list-style-type: none;
+  line-height: 1.5rem;
 }
 
 footer li {
-  /* padding-inline: 1rem; */
+  display: inline-block !important;
+  height: 1.5rem;
+}
+
+footer a {
+  padding-inline: 1rem;
+  text-decoration: none;
+}
+
+footer li:not(:last-child) a {
+  border-right: 1px solid var(--clr-neutral-400);
+}
+
+footer span {
+  font-size: 0.75rem;
 }
 
 /* ****************** 

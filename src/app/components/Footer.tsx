@@ -1,19 +1,49 @@
 export default function Footer() {
   return (
-    <footer className="wrapper wrapper--full">
-      <div>
-        <ul>
-          <li>&copy; 2021 Daukaia</li>
-          <li>Privacy Policy</li>
-          <li>Legal Notice</li>
-          <li>Reg Number</li>
-        </ul>
-      </div>
+    <footer className="">
+      <p className="copy">&copy; 2021 Daukaia. All rights reserved</p>
       <ul>
-        <li>Facebook</li>
-        <li>Instagram</li>
-        <li>LinkedIn</li>
-        <li>YouTube</li>
+        <span className="copy--md">
+          &copy;2021 Daukaia. All rights reserved
+        </span>
+        <li>
+          <a className="disabled" href="">
+            Privacy Policy
+          </a>
+        </li>
+        <li>
+          <a className="disabled" href="">
+            Legal Notice
+          </a>
+        </li>
+        <li>
+          <a className="disabled" href="">
+            Reg Number
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/daukaianorge" target="_blank">
+            Facebook
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/daukaia_no" target="_blank">
+            Instagram
+          </a>
+        </li>
+        <li>
+          <a href="https://no.linkedin.com/company/daukaia" target="_blank">
+            LinkedIn
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/@daukaia4625" target="_blank">
+            YouTube
+          </a>
+        </li>
       </ul>
     </footer>
   );
