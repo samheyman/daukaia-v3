@@ -3,11 +3,11 @@ import { newseader } from "../fonts";
 
 export default function Hero() {
   return (
-    <section className="hero">
+    <section className="hero wrapper wrapper--wide">
       <div className="image-container">
         <div className="gradient-right"></div>
         <img
-          src="./images/girl-heart.jpg"
+          src="./images/girl-heart.png"
           alt="Girl making a heart with her hands"
         />
       </div>

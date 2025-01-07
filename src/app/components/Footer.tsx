@@ -1,9 +1,9 @@
 export default function Footer() {
   return (
-    <footer className="">
+    <footer className="wrapper wrapper--full">
       <div>
-        <p>&copy; 2021 Daukaia</p>
         <ul>
+          <li>&copy; 2021 Daukaia</li>
           <li>Privacy Policy</li>
           <li>Legal Notice</li>
           <li>Reg Number</li>
