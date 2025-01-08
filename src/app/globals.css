@@ -129,7 +129,7 @@ header .accent {
   border: 1px solid var(--clr-accent-500);
   border-radius: 30px;
   margin: 0.5rem 0.5rem;
-  /* padding: 2px 12px; */
+  padding: 2px 12px;
   color: var(--clr-neutral-500);
 }
 
