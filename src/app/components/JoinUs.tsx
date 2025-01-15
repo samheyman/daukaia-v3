@@ -1,11 +1,11 @@
+import Link from "next/link";
 import { newseader } from "../fonts";
-import Button from "./Button";
 
 export default function JoinUs() {
   return (
-    <section className="wrapper join-us">
-      <div>
-        <h1 className={newseader.className}>Join us!</h1>
+    <section className="wrapper join-us flex flex-col items-center">
+      <div className="flex items-center flex-col">
+        <h1 className={`text-6xl ${newseader.className}`}>Join us!</h1>
         <p>
           We need passionate, innovative individuals like you to join us as
           Ambassadors, volunteers or donors. Whether through a bake sale, a
@@ -23,10 +23,31 @@ export default function JoinUs() {
           Discover more about our work and how you can make a lasting impact on
           a child’s life:
         </p>
-        <div className="buttons">
-          <Button text="Learn more" path="/donate" type="primary" />
-          <Button text="Get involved" path="/donate" type="primary" />
-          <Button text="Donate" path="/donate" type="primary" />
+        <div className="flex my-12 flex-row justify-evenly items-center">
+          <Link
+            className="max-w-fit mx-3 px-8 py-1 rounded-full bg-yellow-300 px-3 py-3 text-3 font-semibold whitespace-nowrap text-neutral-500"
+            href="/what-we-do"
+          >
+            Volunteer
+          </Link>
+          <Link
+            className="max-w-fit mx-3 px-8 py-1 rounded-full bg-yellow-300 px-3 py-3 text-3 font-semibold whitespace-nowrap text-neutral-500"
+            href="/what-we-do"
+          >
+            Become an ambassador
+          </Link>
+          <Link
+            className="max-w-fit mx-3 px-8 py-1 rounded-full bg-yellow-300 px-3 py-3 text-3 font-semibold whitespace-nowrap text-neutral-500"
+            href="/what-we-do"
+          >
+            Daukaia for schools
+          </Link>
+          <Link
+            className="max-w-fit mx-3 px-8 py-1 rounded-full bg-yellow-300 px-3 py-3 text-3 font-semibold whitespace-nowrap text-neutral-500"
+            href="/what-we-do"
+          >
+            Partnerships with companies
+          </Link>
         </div>
       </div>
     </section>

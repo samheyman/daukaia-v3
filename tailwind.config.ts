@@ -9,8 +9,19 @@ export default {
   theme: {
     extend: {
       colors: {
+        transparent: "transparent",
+        current: "currentColor",
+        white: "#ffffff",
         background: "var(--background)",
         foreground: "var(--foreground)",
+        yellow: {
+          100: "#fdf9ee",
+          300: "hsl(48.36deg 100% 86.86%)",
+          500: "#fece34",
+        },
+        neutral: {
+          500: "#626262",
+        },
       },
     },
   },

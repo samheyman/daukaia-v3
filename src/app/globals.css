@@ -32,6 +32,8 @@
 
 img {
   display: block;
+  object-fit: cover;
+  height: 100%;
 }
 
 body {
@@ -44,12 +46,16 @@ h1 {
   font-weight: 700;
 }
 
+p {
+  font-size: 1rem;
+}
+
 .wrapper {
   --padding: 0.375rem;
   width: calc(100% - (2 * var(--padding)));
   margin-inline: auto;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
 }
 
 @media (min-width: 1024px) {
@@ -57,8 +63,6 @@ h1 {
     --max-width: 1200px;
     --padding: 2rem;
     width: min(var(--max-width), 100% - (2 * var(--padding)));
-
-    flex-direction: row;
   }
 }
 
@@ -128,8 +132,6 @@ header .accent {
   font-size: 12px;
   border: 1px solid var(--clr-accent-500);
   border-radius: 30px;
-  margin: 0.5rem 0.5rem;
-  padding: 2px 12px;
   color: var(--clr-neutral-500);
 }
 
@@ -308,38 +310,6 @@ HERO SECTION
   }
 }
 
-.what-we-do,
-.who-we-are,
-.join-us {
-  /* margin-block: 2rem; */
-}
-
-.who-we-are {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: flex-end;
-}
-
-.what-we-do {
-  display: flex;
-  align-items: flex-start;
-  border-top: 1px solid var(--clr-neutral-300);
-}
-
-.who-we-are h1,
-.what-we-do h1,
-.join-us h1 {
-  font-size: 64px;
-}
-
-.who-we-are img {
-  max-width: 50%;
-}
-
-.what-we-do img {
-  max-width: 50%;
-}
-
 @media (min-width: 1024px) {
   .who-we-are {
     flex-direction: row;
@@ -351,47 +321,19 @@ HERO SECTION
     margin-top: 1rem;
     max-width: 450px;
   }
-  .what-we-do {
-    padding-block: var(--horizontal-padding);
-    align-items: flex-start;
-  }
-  .what-we-do > div {
-    margin-left: 2rem;
-  }
+
   .who-we-are > div {
     margin-right: 2rem;
   }
   .what-we-do img {
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     max-width: 450px;
-  }
-  .who-we-are p {
-    max-width: 60ch;
-    padding-block: 1rem;
-    padding-right: 2rem;
-    font-size: 1.25rem;
   }
 
   .what-we-do h1 {
   }
-
-  .what-we-do p {
-    max-width: 60ch;
-    padding-block: 1rem;
-    font-size: 1.25rem;
-  }
 }
 
-.who-we-are .buttons {
-  /* display: flex; */
-  /* gap: 1rem; */
-  margin-top: 2rem;
-}
-.what-we-do .buttons {
-  /* display: flex; */
-  /* gap: 1rem; */
-  margin-top: 2rem;
-}
 .join-us {
   padding-block: var(--horizontal-padding);
 }
@@ -407,7 +349,9 @@ HERO SECTION
 }
 .join-us p {
   font-size: 1.25rem;
-  margin-block: 2rem;
+  margin-block: 1rem;
+  text-align: center;
+  max-width: 80ch;
 }
 
 .meaning {

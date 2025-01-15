@@ -16,11 +16,17 @@ export default function Header() {
         <li>
           <Link href="/ignite-change">Ignite change</Link>
         </li>
-        <li className="accent">
+        {/* <li className="accent">
           <Link href="/donate">Donate</Link>
-        </li>
+        </li> */}
+        <Link
+          className="py-2 px-5 text-black transition-colors duration-150 bg-yellow-500 rounded-full focus:shadow-outline hover:bg-yellow-300"
+          href="/donate"
+        >
+          Donate
+        </Link>
       </ul>
-      <div className="language">English</div>
+      <div className="language my-4 mr-8">English</div>
     </header>
   );
 }
