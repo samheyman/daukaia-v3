@@ -14,9 +14,9 @@ export default function Header() {
           <li>
             <Link href="/what-we-do">What we do</Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="/ignite-change">Ignite change</Link>
-          </li>
+          </li> */}
           {/* <li className="accent">
           <Link href="/donate">Donate</Link>
         </li> */}
@@ -29,7 +29,9 @@ export default function Header() {
         </ul>
       </div>
       <div className=" flex mt-2 -mb-4 pr-8 items-center w-72 justify-between">
-        <div className="language px-3 py-0.5">English</div>
+        <div className="language text-base text-neutral-500 px-3 py-0.5">
+          English
+        </div>
         <a href="https://www.facebook.com/daukaianorge" target="_blank">
           <img className="h-6" src="./images/icon-facebook.png" />
         </a>
