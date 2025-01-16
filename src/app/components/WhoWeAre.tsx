@@ -3,7 +3,7 @@ import { newseader } from "../fonts";
 
 export default function WhoWeAre() {
   return (
-    <section className=" wrapper who-we-are">
+    <section className="wrapper who-we-are">
       <img
         className="mr-20"
         src="./images/three-flowers.png"
