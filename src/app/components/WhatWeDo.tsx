@@ -6,7 +6,9 @@ export default function WhatWeDo() {
     <section className="flex wrapper flex-col my-12">
       <div className="flex lg:flex-row what-we-do flex-col-reverse">
         <div className="mx-0 w-1/2">
-          <h1 className={`${newseader.className} text-6xl my-4`}>What we do</h1>
+          <h1 className={`${newseader.className} text-6xl mt-4 mb-6`}>
+            What we do
+          </h1>
           <p className="text-base my-4">
             We support children in Ocotal, Nicaragua, through education, health,
             personal development and community support so they can overcome
@@ -23,15 +25,15 @@ export default function WhatWeDo() {
             talents, and find sustainable ways to contribute to their community
             and the environment, transforming their world from the ground up.
           </p>
-          <div className="flex my-6 flex-row justify-start items-center">
+          <div className="flex my-8 flex-row justify-start items-center">
             <Link
-              className="max-w-fit mx-3 px-8 py-1 rounded-full bg-yellow-300 px-3 py-3 text-3 font-semibold whitespace-nowrap text-neutral-500"
+              className="max-w-fit mr-8 px-8 py-1 rounded-full bg-yellow-300 px-3 py-3 text-3 font-semibold whitespace-nowrap text-neutral-500"
               href="/what-we-do"
             >
               Learn more
             </Link>
             <Link
-              className="max-w-fit mx-3 px-8 py-1 rounded-full bg-yellow-300 px-3 py-3 text-3 font-semibold whitespace-nowrap text-neutral-500"
+              className="max-w-fit px-8 py-1 rounded-full bg-yellow-300 px-3 py-3 text-3 font-semibold whitespace-nowrap text-neutral-500"
               href="/what-we-do"
             >
               Get involved

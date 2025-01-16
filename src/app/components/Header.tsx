@@ -20,13 +20,13 @@ export default function Header() {
           <Link href="/donate">Donate</Link>
         </li> */}
         <Link
-          className="py-2 px-5 text-black transition-colors duration-150 bg-yellow-500 rounded-full focus:shadow-outline hover:bg-yellow-300"
+          className="py-2 px-5 text-black transition-colors duration-150 bg-yellow-500 rounded-full focus:shadow-outline hover:bg-yellow-300 "
           href="/donate"
         >
           Donate
         </Link>
       </ul>
-      <div className="language my-4 mr-8">English</div>
+      <div className="language my-4 mr-8 px-3 py-0.5">English</div>
     </header>
   );
 }
