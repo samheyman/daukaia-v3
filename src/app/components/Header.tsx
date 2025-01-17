@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="wrapper wrapper--full flex flex-col-reverse items-end">
+    <header className="wrapper wrapper--wide flex flex-col-reverse items-end">
       <div className="header w-full mb-4">
         <Link href="/">
           <img className="logo" src="./images/logo.png" alt="Daukaia" />
@@ -14,9 +14,9 @@ export default function Header() {
           <li>
             <Link href="/what-we-do">What we do</Link>
           </li>
-          {/* <li>
+          <li>
             <Link href="/ignite-change">Ignite change</Link>
-          </li> */}
+          </li>
           {/* <li className="accent">
           <Link href="/donate">Donate</Link>
         </li> */}
