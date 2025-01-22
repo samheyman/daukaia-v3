@@ -1,21 +1,18 @@
 export default function Footer() {
   return (
-    <footer className="flex flex-col md:flex-row md:items-center">
-      <div className="footer mx-auto w-[calc(100%-0.75rem)] lg:w-[min(1600px,(100%-4rem))] flex flex-row justify-between items-center py-8">
-        <div className="text-sm">
-          <p className="copy">&copy; 2021 Daukaia. All rights reserved</p>
-          <ul>
-            <li>
-              <span className="copy--md">
-                &copy;2025 Daukaia. All rights reserved
-              </span>
-            </li>
+    <footer className="">
+      <div className="text-sm flex flex-col lg:flex-row lg:items-center  justify-between items-center footer mx-auto w-[calc(100%-0.75rem)] lg:w-[min(1600px,(100%-4rem))] py-8">
+        <div className="flex items-center flex-col lg:flex-row">
+          <p className="copy text-sm pr-4">
+            &copy;2025 Daukaia. All rights reserved
+          </p>
+          <ul className="flex justify-center my-2">
             <li>
               <a className="disabled pr-4" href="">
                 Privacy Policy
               </a>
             </li>
-            <li>
+            <li className="pl-4">
               <a className="" href="/legal">
                 Legal
               </a>
@@ -23,7 +20,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className=" flex pr-8 items-center w-60 justify-between">
+        <div className=" flex lg:pr-8 items-center w-44 lg:w-60 justify-between">
           <a href="https://www.facebook.com/daukaianorge" target="_blank">
             <img className="h-6" src="./images/icon-facebook.png" />
           </a>

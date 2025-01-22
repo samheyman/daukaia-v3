@@ -3,7 +3,7 @@ import { newseader } from "../fonts";
 
 export default function Hero() {
   return (
-    <section className="hero mx-auto flex w-[calc(100%-0.75rem)] lg:w-[min(1600px,(100%-4rem))]">
+    <section className="hero mx-auto flex flex-col lg:flex-row w-[calc(100%-0.75rem)] lg:w-[min(1600px,(100%-4rem))]">
       <div className="image-container h-full lg:w-1/2">
         <div className="gradient-right"></div>
         <img
@@ -11,7 +11,7 @@ export default function Hero() {
           alt="Girl making a heart with her hands"
         />
       </div>
-      <div className=" bg-yellow-500 flex flex-col justify-center items-center w-full h-full lg:w-1/2">
+      <div className=" bg-yellow-500 py-8 flex flex-col justify-center items-center w-full h-full lg:w-1/2">
         <div className="flex flex-col items-center justify-center">
           <p className={`${newseader.className}`}>
             Creating <span>safer lives</span>

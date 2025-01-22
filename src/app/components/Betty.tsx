@@ -5,6 +5,7 @@ export default function Betty() {
     <section className=" betty">
       <div className="betty-container">
         <img
+          className="w-full"
           src="./images/betty.jpg"
           alt="young girl standing outside against a wall and smiling"
         />

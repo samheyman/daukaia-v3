@@ -3,9 +3,9 @@ import { newseader } from "../fonts";
 
 export default function WhoWeAre() {
   return (
-    <section className="flex mx-auto w-[calc(100%-0.75rem)] lg:w-[min(1200px,(100%-4rem))] who-we-are">
+    <section className="flex mx-auto w-[calc(100%-0.75rem)] lg:w-[min(1200px,(100%-4rem))] who-we-are flex-col lg:flex-row items-end">
       <img
-        className="mr-20"
+        className="w-40 mr-20"
         src="./images/three-flowers.png"
         alt="Children playing"
       />

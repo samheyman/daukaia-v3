@@ -23,27 +23,27 @@ export default function JoinUs() {
           Discover more about our work and how you can make a lasting impact on
           a child’s life:
         </p>
-        <div className="flex my-12 flex-row justify-evenly items-center">
+        <div className="flex my-12 flex-col lg:flex-row gap-8 justify-evenly items-center">
           <Link
-            className="max-w-fit mx-3 px-8 py-1 rounded-full bg-yellow-300 px-3 py-3 text-3 font-semibold whitespace-nowrap text-neutral-500"
+            className="text-center w-full mx-3 rounded-full bg-yellow-300 px-3 lg:px-8 py-3 text-3 font-semibold whitespace-nowrap text-neutral-500"
             href="/what-we-do"
           >
             Volunteer
           </Link>
           <Link
-            className="max-w-fit mx-3 px-8 py-1 rounded-full bg-yellow-300 px-3 py-3 text-3 font-semibold whitespace-nowrap text-neutral-500"
+            className="text-center w-full mx-3 rounded-full bg-yellow-300 px-3 lg:px-8 py-3 text-3 font-semibold whitespace-nowrap text-neutral-500"
             href="/what-we-do"
           >
             Become an ambassador
           </Link>
           <Link
-            className="max-w-fit mx-3 px-8 py-1 rounded-full bg-yellow-300 px-3 py-3 text-3 font-semibold whitespace-nowrap text-neutral-500"
+            className="text-center w-full mx-3 rounded-full bg-yellow-300 px-3 lg:px-8 py-3 text-3 font-semibold whitespace-nowrap text-neutral-500"
             href="/what-we-do"
           >
             Daukaia for schools
           </Link>
           <Link
-            className="max-w-fit mx-3 px-8 py-1 rounded-full bg-yellow-300 px-3 py-3 text-3 font-semibold whitespace-nowrap text-neutral-500"
+            className="text-center w-full mx-3 rounded-full bg-yellow-300 px-3 lg:px-8 py-3 text-3 font-semibold whitespace-nowrap text-neutral-500"
             href="/what-we-do"
           >
             Partnerships with companies
