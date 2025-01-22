@@ -3,7 +3,7 @@ import { newseader } from "../fonts";
 
 export default function JoinUs() {
   return (
-    <section className="wrapper join-us flex flex-col items-center">
+    <section className="mx-auto w-[calc(100%-0.75rem)] lg:w-[min(1200px,(100%-4rem))] join-us flex flex-col items-center">
       <div className="flex items-center flex-col">
         <h1 className={`text-6xl ${newseader.className}`}>Join us!</h1>
         <p>

@@ -3,7 +3,7 @@ import { newseader } from "../fonts";
 
 export default function Hero() {
   return (
-    <section className="hero wrapper wrapper--wide">
+    <section className="hero mx-auto flex w-[calc(100%-0.75rem)] lg:w-[min(1600px,(100%-4rem))]">
       <div className="image-container h-full lg:w-1/2">
         <div className="gradient-right"></div>
         <img

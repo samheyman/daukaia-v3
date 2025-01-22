@@ -3,7 +3,7 @@ import { newseader } from "../fonts";
 
 export default function WhoWeAre() {
   return (
-    <section className="wrapper who-we-are">
+    <section className="flex mx-auto w-[calc(100%-0.75rem)] lg:w-[min(1200px,(100%-4rem))] who-we-are">
       <img
         className="mr-20"
         src="./images/three-flowers.png"

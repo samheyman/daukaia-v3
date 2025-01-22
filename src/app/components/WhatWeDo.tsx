@@ -3,7 +3,7 @@ import { newseader } from "../fonts";
 
 export default function WhatWeDo() {
   return (
-    <section className="flex wrapper flex-col my-12">
+    <section className="mx-auto flex w-[calc(100%-0.75rem)] lg:w-[min(1200px,(100%-4rem))] flex-col my-12">
       <div className="flex lg:flex-row what-we-do flex-col-reverse">
         <div className="mx-0 w-1/2">
           <h1 className={`${newseader.className} text-6xl mt-4 mb-6`}>

@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="flex flex-col md:flex-row md:items-center">
-      <div className="footer wrapper wrapper--wide flex flex-row justify-between items-center py-8">
+      <div className="footer mx-auto w-[calc(100%-0.75rem)] lg:w-[min(1600px,(100%-4rem))] flex flex-row justify-between items-center py-8">
         <div className="text-sm">
           <p className="copy">&copy; 2021 Daukaia. All rights reserved</p>
           <ul>

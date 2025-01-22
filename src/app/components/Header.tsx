@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="wrapper wrapper--wide flex flex-col-reverse items-end">
+    <header className="mx-auto flex w-[calc(100%-0.75rem)] lg:w-[min(1600px,(100%-4rem))] flex-col-reverse items-end">
       <div className="header w-full mb-4">
         <Link href="/">
           <img className="logo" src="./images/logo.png" alt="Daukaia" />
