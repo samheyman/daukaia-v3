@@ -1,6 +1,6 @@
 export default function Legal() {
   return (
-    <section className="wrapper flex flex-col my-8 pt-4 pb-8 min-h-screen">
+    <section className="flex mx-auto w-[calc(100%-0.75rem)] lg:w-[min(1200px,(100%-4rem))] flex-col my-8 pt-4 pb-8 min-h-screen">
       <h1 className="text-4xl mb-6">Legal information</h1>
       <div className="my-4 md:max-w-3xl">
         <h2 className="text-xl font-semibold">Daukaia Norge</h2>
