@@ -17,6 +17,7 @@ export default {
         yellow: {
           100: "#fdf9ee",
           300: "hsl(48.36deg 100% 86.86%)",
+          400: "#ffda65",
           500: "#fece34",
         },
         neutral: {

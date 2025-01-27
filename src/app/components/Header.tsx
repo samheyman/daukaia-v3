@@ -21,10 +21,12 @@ export default function Header() {
           <Link href="/donate">Donate</Link>
         </li> */}
           <Link
-            className="py-2 px-5 text-black transition-colors duration-150 bg-yellow-500 rounded-full focus:shadow-outline hover:bg-yellow-300 "
             href="/donate"
+            className="group relative inline-flex  border border-yellow-500 rounded-full transition focus:outline-none"
           >
-            Donate
+            <span className="py-2 px-5 border border-yellow-400 text-black bg-yellow-400 rounded-full transition transfor hover:-translate-x-1 hover:-translate-y-1">
+              Donate
+            </span>
           </Link>
         </ul>
       </div>
