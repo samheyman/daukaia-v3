@@ -3,16 +3,16 @@ export default function Footer() {
     <footer className="">
       <div className="text-sm flex flex-col lg:flex-row lg:items-center  justify-between items-center footer mx-auto w-[calc(100%-0.75rem)] lg:w-[min(1600px,(100%-4rem))] py-8">
         <div className="flex items-center flex-col lg:flex-row">
-          <p className="copy text-sm pr-4">
-            &copy;2025 Daukaia. All rights reserved
+          <p className="copy text-sm">
+            &copy; 2025 Daukaia. All rights reserved
           </p>
           <ul className="flex justify-center my-2">
-            <li>
-              <a className="disabled pr-4" href="">
-                Privacy Policy
+            <li className="ml-4 pl-4 border-l-2 border-[var(--clr-neutral-400)]">
+              <a className="disabled " href="">
+                Privacy
               </a>
             </li>
-            <li className="pl-4">
+            <li className="ml-4 pl-4 border-l-2 border-[var(--clr-neutral-400)]">
               <a className="" href="/legal">
                 Legal
               </a>

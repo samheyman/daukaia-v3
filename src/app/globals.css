@@ -126,10 +126,6 @@ footer li {
   padding-inline: 0.5rem;
 } */
 
-footer li:not(:last-child) a {
-  border-right: 1px solid var(--clr-neutral-400);
-}
-
 /* ****************** 
 HERO SECTION
 ****************** */
