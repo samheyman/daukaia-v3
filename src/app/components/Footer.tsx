@@ -7,7 +7,7 @@ export default function Footer() {
             &copy; 2025 Daukaia. All rights reserved
           </p>
           <ul className="flex justify-center my-2">
-            <li className="ml-4 pl-4 border-l-2 border-[var(--clr-neutral-400)]">
+            <li className="ml-4 pl-4 lg:border-l-2 border-[var(--clr-neutral-400)]">
               <a className="disabled " href="">
                 Privacy
               </a>
