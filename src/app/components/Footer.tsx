@@ -8,7 +8,7 @@ export default function Footer() {
           </p>
           <ul className="flex justify-center my-2">
             <li className="lg:ml-4 lg:pl-4 lg:border-l-2 border-[var(--clr-neutral-400)]">
-              <a className="disabled " href="">
+              <a className=" " href="/privacy">
                 Privacy
               </a>
             </li>
