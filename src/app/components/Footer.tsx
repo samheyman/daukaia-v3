@@ -17,6 +17,11 @@ export default function Footer() {
                 Legal
               </a>
             </li>
+            <li className="ml-4 pl-4 border-l-2 border-[var(--clr-neutral-400)]">
+              <a className="" href="/terms">
+                Terms
+              </a>
+            </li>
           </ul>
         </div>
 
