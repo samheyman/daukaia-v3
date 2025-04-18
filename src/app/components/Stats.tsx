@@ -7,13 +7,13 @@ export default function Stats() {
         <div className="m-8 flex-1">
           <dd className={`${newseader.className} text-5xl text-center`}>500</dd>
           <dt className="text-lg text-center pt-2">
-            children empowered since 2010
+            children empowered since 2012
           </dt>
         </div>
         <div className="m-8 flex-1">
           <dd className={`${newseader.className} text-5xl text-center`}>65%</dd>
           <dt className="text-lg text-center pt-2">
-            of beneficiaires achieve higher grades
+            of beneficiaires achieve top grades
           </dt>
         </div>
         <div className="m-8 flex-1">
