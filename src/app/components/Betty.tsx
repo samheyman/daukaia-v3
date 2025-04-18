@@ -1,4 +1,4 @@
-import { newseader } from "../fonts";
+import { newsreader } from "../fonts";
 
 export default function Betty() {
   return (
@@ -10,7 +10,7 @@ export default function Betty() {
           alt="young girl standing outside against a wall and smiling"
         />
         <div className="text px-12 py-14 ma">
-          <p className={`${newseader.className} text-6xl font-bold`}>
+          <p className={`${newsreader.className} text-6xl font-bold`}>
             This is Betty.
           </p>
           <p className="text-base my-4">

@@ -1,4 +1,4 @@
-import { newseader } from "../fonts";
+import { newsreader } from "../fonts";
 // import Button from "./Button";
 
 export default function Hero() {
@@ -13,10 +13,10 @@ export default function Hero() {
       </div>
       <div className=" bg-yellow-500 py-8 flex flex-col justify-center items-center w-full h-full lg:w-1/2">
         <div className="flex flex-col items-center justify-center">
-          <p className={`${newseader.className}`}>
+          <p className={`${newsreader.className}`}>
             Creating <span>safer lives</span>
           </p>
-          <p className={`${newseader.className}`}>
+          <p className={`${newsreader.className}`}>
             and <span>brighter futures</span>
           </p>
           <a

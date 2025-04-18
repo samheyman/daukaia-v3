@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { newseader } from "../fonts";
+import { newsreader } from "../fonts";
 
 export default function WhoWeAre() {
   return (
@@ -10,7 +10,7 @@ export default function WhoWeAre() {
         alt="Children playing"
       />
       <div>
-        <h1 className={`${newseader.className} text-6xl mt-4 mb-6`}>
+        <h1 className={`${newsreader.className} text-6xl mt-4 mb-6`}>
           Who we are
         </h1>
         <p className="text-base my-4">

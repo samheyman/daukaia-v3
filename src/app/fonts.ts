@@ -10,7 +10,7 @@ export const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const newseader = Newsreader({
+export const newsreader = Newsreader({
   variable: "--font-newsreader",
   subsets: ["latin"],
 });

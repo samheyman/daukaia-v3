@@ -92,7 +92,7 @@ export default function Header() {
           </Link>
         </ul>
       </div>
-      <div className="hidden lg:flex mt-2 -mb-4 pr-8 items-center w-72 justify-between">
+      {/* <div className="hidden lg:flex mt-2 -mb-4 pr-8 items-center w-72 justify-between">
         <div className="language text-base text-neutral-500 px-3 py-0.5">
           English
         </div>
@@ -108,7 +108,8 @@ export default function Header() {
         <a href="https://www.youtube.com/@daukaia4625" target="_blank">
           <img className="h-6" src="./images/icon-youtube.png" />
         </a>
-      </div>
+        <a href="mailto:hello@daukaia.org">M</a>
+      </div> */}
     </header>
   );
 }

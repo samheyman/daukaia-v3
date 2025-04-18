@@ -1,11 +1,11 @@
 import Link from "next/link";
-import { newseader } from "../fonts";
+import { newsreader } from "../fonts";
 
 export default function JoinUs() {
   return (
     <section className="mx-auto w-[calc(100%-0.75rem)] lg:w-[min(1200px,(100%-4rem))] join-us flex flex-col items-center">
       <div className="flex items-center flex-col">
-        <h1 className={`text-6xl ${newseader.className}`}>Join us!</h1>
+        <h1 className={`text-6xl ${newsreader.className}`}>Join us!</h1>
         <p>
           We need passionate, innovative individuals like you to join us as
           Ambassadors, volunteers or donors. Whether through a bake sale, a
