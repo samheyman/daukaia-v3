@@ -3,11 +3,11 @@ import { newsreader } from "../fonts";
 
 export default function Hero() {
   return (
-    <section className="hero mx-auto flex flex-col lg:flex-row w-[calc(100%-0.75rem)] lg:w-[min(1600px,(100%-4rem))]">
-      <div className="image-container h-full lg:w-1/2">
-        <div className="gradient-right"></div>
+    <section className="hero mx-auto h-[500px] flex flex-col lg:flex-row w-[calc(100%-0.75rem)] lg:w-[min(1600px,(100%))]">
+      <div className="image-container h-full lg:w-1/2 overflow-hidden">
+        <div className="gradient-right h-full"></div>
         <img
-          src="./images/girl-heart.png"
+          src="./images/girl-heart-2.jpg"
           alt="Girl making a heart with her hands"
         />
       </div>
