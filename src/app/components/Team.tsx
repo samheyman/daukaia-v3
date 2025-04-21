@@ -47,7 +47,10 @@ export default function Team() {
             <p>Vice President</p>
           </div>
           <div className="flex flex-col items-center mx-16">
-            <img src="/images/team/laura.png" className="w-60" />
+            <img
+              src="/images/team/laura.png"
+              className="w-60 border border-[#00b596] rounded-full bg-[#00b596]"
+            />
             <p className="font-bold mt-4">Laura Ayerdi</p>
             <p>Secretary</p>
           </div>
@@ -57,6 +60,65 @@ export default function Team() {
             <p>Board Member</p>
           </div>
         </div>
+        <h2 className={`text-3xl font-bold ${newsreader.className} my-8`}>
+          Permanent Volunteers
+        </h2>
+        <ul className="list-disc ml-4">
+          <li className="py-1">
+            <span className="font-bold">Rebecca Nekstad</span> - Health Advisor
+          </li>
+          <li className="py-1">
+            <span className="font-bold">Lilli Pope</span> - Fundraising
+            Coordinator
+          </li>
+          <li className="py-1">
+            <span className="font-bold">Zaneta Statevska</span> - Communications
+            Manager
+          </li>
+          <li className="py-1">
+            <span className="font-bold">Laura Ayerdi</span> - Volunteer
+            Coordinator
+          </li>
+          <li className="py-1">
+            <span className="font-bold">Javier García</span> - Impact Manager
+          </li>
+          <li className="py-1">
+            <span className="font-bold">Jenny Hernandez</span> - Legal Advisor
+          </li>
+          <li className="py-1">
+            <span className="font-bold">
+              Alexandra Beltran, Marina Graell, Sara Ramio
+            </span>{" "}
+            - Teacher trainers
+          </li>
+        </ul>
+        <h2 className={`text-3xl font-bold ${newsreader.className} my-8`}>
+          Co-founders and Advisory Board
+        </h2>
+        <ul className="list-disc ml-4">
+          <li className="py-1">
+            <span className="font-bold">Carles López</span> - Empieza por Educar
+          </li>
+          <li className="py-1">
+            <span className="font-bold">Daniel Olalla</span> - Universidad Rey
+            Juan Carlos
+          </li>
+          <li className="py-1">
+            <span className="font-bold">Jara Costa</span> - Institut Escola
+            Renaixença
+          </li>
+          <li className="py-1">
+            <span className="font-bold">Javier Fernández</span> - Instituto
+            Cervantes
+          </li>
+          <li className="py-1">
+            <span className="font-bold">Julián Martín</span> - CP IFP Federica
+            Montseny
+          </li>
+          <li className="py-1">
+            <span className="font-bold">Pablo Millanes</span> - Teach for All
+          </li>
+        </ul>
       </div>
     </section>
   );
