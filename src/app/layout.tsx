@@ -23,6 +23,10 @@ export default function RootLayout({
         <main>{children}</main>
         <Footer />
       </body>
+      {/* <script
+        src="https://donorbox.org/widget.js"
+        paypalExpress="false"
+      ></script> */}
     </html>
   );
 }
