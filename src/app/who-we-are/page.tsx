@@ -4,7 +4,7 @@
 // import JoinUs from "../components/JoinUs";
 
 import Image from "next/image";
-import kidsInPlayground from "../../../public/images/kids-in-playground.jpg";
+import kidsInPlayground from "../../../public/images/kids-in-playground-2.jpg";
 import Mission from "../components/Mission";
 import Vision from "../components/Vision";
 import Team from "../components/Team";
@@ -18,7 +18,7 @@ export default function Home() {
         src={kidsInPlayground}
         alt="Kids playing outside in the playground"
         className="mx-auto"
-        style={{ height: "400px", width: "1200px", objectFit: "cover" }}
+        style={{ height: "400px", width: "1800px", objectFit: "contain" }}
       />
       {/* <WhoWeAre /> */}
       <Mission />

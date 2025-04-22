@@ -6,7 +6,7 @@ export default function Betty() {
       <div className="betty-container">
         <img
           className="w-full"
-          src="./images/betty.jpg"
+          src="./images/betty-2.jpg"
           alt="young girl standing outside against a wall and smiling"
         />
         <div className="text px-12 py-14 ma">
