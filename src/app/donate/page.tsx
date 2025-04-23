@@ -48,7 +48,7 @@ export default function Home() {
               <iframe
                 src="https://donorbox.org/embed/daukaia?"
                 name="donorbox"
-                allowpaymentrequest="allowpaymentrequest"
+                // allowpaymentrequest={true}
                 seamless={true}
                 frameBorder="0"
                 scrolling="no"
