@@ -13,7 +13,7 @@ export default function Home() {
           <h2 className={`${newsreader.className} text-5xl mt-2 mb-6`}>
             Donate today!
           </h2>
-          <div className="flex flex-row justify-between mt-8">
+          <div className="flex flex-col lg:flex-row justify-between mt-8">
             <div className="flex flex-col flex-1 ">
               <p className="py-1 pb-8">
                 Your donation provides children of Ocotal with the opportunity

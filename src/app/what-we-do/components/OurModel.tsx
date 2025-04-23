@@ -34,7 +34,7 @@ export const OurModel = () => {
         <div className="flex flex-col mt-8">
           <h2 className={` text-xl mt-4 mb-6 font-semibold`}>4 PILLARS </h2>
           <p>Our work revolves around 4 pillars:</p>
-          <div className="flex justify-between mt-4 gap-8">
+          <div className="flex flex-col lg:flex-row justify-between mt-4 lg:gap-8">
             <div className="flex-1 my-4 border border-4 border-[--clr-accent-500] rounded-xl px-6 py-4">
               <span className="uppercase font-semibold">Education</span>
               <p className="my-4">
