@@ -79,9 +79,9 @@ export default function Header() {
           <li className="text-center">
             <Link href="/what-we-do">What we do</Link>
           </li>
-          <li className="text-center">
+          {/* <li className="text-center">
             <Link href="/ignite-change">Ignite change</Link>
-          </li>
+          </li> */}
           <Link
             href="/donate"
             className="group relative inline-flex  border border-yellow-400 rounded-full transition focus:outline-none"

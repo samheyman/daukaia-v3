@@ -25,7 +25,7 @@ export const OurWork = () => {
             support, and the opportunity to engage in activities and play.
           </p>
         </div>
-        <div className="w-96 ml-8 mt-1">
+        <div className="w-96 lg:ml-8 mt-1">
           <Image
             src={GirlWorking}
             alt=""

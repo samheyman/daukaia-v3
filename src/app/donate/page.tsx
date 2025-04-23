@@ -44,7 +44,7 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-            <div className="flex flex-col items-end mx-auto w-[600px] ">
+            <div className="flex flex-col items-end mx-auto w-full lg:w-[600px] ">
               <iframe
                 src="https://donorbox.org/embed/daukaia?"
                 name="donorbox"
@@ -64,14 +64,14 @@ export default function Home() {
       <section
         className={` ${newsreader.className} text-center flex text-lg items-center justify-center bg-[--clr-accent-100] my-8 py-12`}
       >
-        <p className="text-3xl max-w-4xl">
+        <p className="text-3xl max-w-4xl px-4">
           Or go to our Donorbox donations page:{" "}
           <a href="https://donorbox.org/daukaia" target="_blank">
             https://donorbox.org/daukaia
           </a>
         </p>
       </section>
-      <section className="mx-auto flex w-[calc(100%-0.75rem)] lg:w-[min(1200px,(100%-4rem))] flex-col my-12 ">
+      <section className="mx-auto flex w-[calc(100%-1rem)] lg:w-[min(1200px,(100%-4rem))] flex-col my-12 ">
         <h1 className={`${newsreader.className} text-6xl mt-4 mb-1`}>FAQ</h1>
         <p className="font-bold pt-8 pb-2">How will my donation be spent?</p>
         <p className="pl-4">

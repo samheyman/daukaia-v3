@@ -6,7 +6,7 @@ export const WhyOcotal = () => {
   return (
     <section className=" mx-auto w-[calc(100%-0.75rem)] lg:w-[min(1200px,(100%-4rem))] my-12">
       <div className="flex flex-col lg:flex-row w-full justify-between">
-        <div className="w-96 mr-8 mt-8">
+        <div className="w-96 lg:mr-8 mt-8">
           <Image
             src={Ocotal}
             alt="Photo of Ocotal"
