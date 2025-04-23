@@ -40,7 +40,7 @@ export default function Team() {
             <p>President (Spain)</p>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row justify-center items-center w-full  gap-8 lg:gap-8">
+        <div className="flex flex-col lg:flex-row justify-center items-center w-full mt-8 gap-8 lg:gap-8">
           <div className="flex flex-col items-center">
             <img src="/images/team/javier.png" className="w-60" />
             <p className="font-bold mt-4">Javier Fernández</p>
