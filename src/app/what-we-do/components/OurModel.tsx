@@ -5,11 +5,11 @@ import Group from "../../../../public/images/group.jpg";
 export const OurModel = () => {
   return (
     <section className=" mx-auto w-[calc(100%-0.75rem)] lg:w-[min(1200px,(100%-4rem))] my-12">
-      <h1 className={`${newsreader.className} text-4xl mt-4 mb-6`}>
+      <h1 className={`${newsreader.className} text-4xl mt-4 lg:mb-6`}>
         Our model
       </h1>
       <div className="flex flex-col">
-        <h2 className={` text-xl mb-6 font-semibold`}>
+        <h2 className={` text-xl lg:mb-6 font-semibold`}>
           A NURTURING ENVIRONMENT
         </h2>
         <div className="flex flex-col mt-8 lg:flex-row  ">
@@ -20,7 +20,7 @@ export const OurModel = () => {
               super-power!
             </p>
           </div>
-          <div className="flex-1 ml-8 mt-1">
+          <div className="flex-1 lg:ml-8 mt-1">
             <Image
               src={Group}
               alt=""
