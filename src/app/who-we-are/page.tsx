@@ -19,7 +19,6 @@ export default function Home() {
       <Mission />
       <Vision />
       <Values />
-
       <Team />
       <ContactUs />
       {/* <Impact /> */}

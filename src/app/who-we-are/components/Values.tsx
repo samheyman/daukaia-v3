@@ -59,7 +59,7 @@ export default function Values() {
           <p>
             We embrace creativity, innovation and adaptability to address
             complex challenges and find effective solutions that positively
-            impact children's lives.
+            impact children&apos;s lives.
           </p>
         </div>
       </div>
