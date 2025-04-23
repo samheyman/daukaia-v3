@@ -14,10 +14,10 @@ export default function Hero() {
       <div className=" bg-yellow-500 py-8 flex flex-col justify-center items-center w-full h-full lg:w-1/2">
         <div className="flex flex-col items-center justify-center">
           <p className={`${newsreader.className}`}>
-            Creating <span>safer lives</span>
+            Providing <span>safe spaces</span>
           </p>
           <p className={`${newsreader.className}`}>
-            and <span>brighter futures</span>
+            for <span>brighter futures</span>
           </p>
           <a
             className="mt-8 rounded-full border border-solid transition-colors flex items-center justify-center text-background gap-2 py-2 px-4 sm:px-9 hover:bg-clr-accent-500"
