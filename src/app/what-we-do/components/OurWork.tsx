@@ -10,9 +10,9 @@ export const OurWork = () => {
           What we do
         </h1>
         <div className="flex-1">
-          <h2 className={`${newsreader.className} text-4xl mt-4 mb-6`}>
+          <h1 className={`${newsreader.className} text-4xl mt-4 mb-6`}>
             Our work
-          </h2>
+          </h1>
           <p className="text-lg md:text-base my-4">
             We provide daily, direct support to children in vulnerable
             situations, complementing their formal education in collaboration
