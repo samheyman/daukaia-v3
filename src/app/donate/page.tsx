@@ -9,12 +9,12 @@ export default function Home() {
       <section className="mx-auto flex w-[calc(100%-0.75rem)] lg:w-[min(1200px,(100%-4rem))] flex-col mt-12">
         <div className="flex flex-col">
           <h1 className={`${newsreader.className} text-6xl mt-4 mb-1`}>
-            Invest in a child&apos;s potential
+            Donate
           </h1>
-          <h2 className={`${newsreader.className} text-5xl mt-2 mb-6`}>
-            Donate today!
+          <h2 className={`${newsreader.className} text-5xl mt-8 mb-0`}>
+            Invest in a child&apos;s potential - donate today!
           </h2>
-          <div className="flex flex-col lg:flex-row justify-between mt-8">
+          <div className="flex flex-col lg:flex-row justify-between mt-4">
             <div className="flex flex-col flex-1 ">
               <p className="py-1 pb-8">
                 Your donation provides children of Ocotal with the opportunity
@@ -45,19 +45,72 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-            <DonorBoxForm />
           </div>
         </div>
       </section>
-      <section
-        className={` ${newsreader.className} text-center flex text-lg items-center justify-center bg-[--clr-accent-100] my-8 py-12`}
-      >
-        <p className="text-3xl max-w-4xl px-4">
-          Or go to our Donorbox donations page:{" "}
-          <a href="https://donorbox.org/daukaia" target="_blank">
+      {/* <section
+        className={` ${newsreader.className} flex flex-col text-lg items-start justify-center  my-8 py-12`}
+      > */}
+      <section className="mx-auto flex w-[calc(100%-0.75rem)] lg:w-[min(1200px,(100%-4rem))] flex-col mt-12 ">
+        <h2 className={`${newsreader.className} text-5xl mt-2 mb-6`}>
+          Via DonorBox
+        </h2>
+        <DonorBoxForm />
+
+        <p className="text-xl px-4 text-center">
+          You can also go to our Donorbox donations page:{" "}
+          <a
+            href="https://donorbox.org/daukaia"
+            target="_blank"
+            className="block"
+          >
             https://donorbox.org/daukaia
           </a>
         </p>
+      </section>
+      <section className="mx-auto flex w-[calc(100%-0.75rem)] lg:w-[min(1200px,(100%-4rem))] flex-col mt-12 ">
+        <h2 className={`${newsreader.className} text-5xl mt-2 mb-6`}>
+          Via bank transfer
+        </h2>
+        <p className="pl-4">
+          If you for any reason prefer not using our online form, there are
+          several other options available:
+        </p>
+        <ul className="list-disc ml-4 pl-4">
+          <li className="py-1">
+            You can make a direct wire transfer to one of our bank accounts:
+            <ul className="">
+              <li className="py-2">
+                <span className="font-semibold">Asociación Daukaia</span>
+                <ul>
+                  <li>IBAN: ES85 00491954112010009978</li>
+                  <li>BIC: BSCHESMMXXX</li>
+                </ul>
+              </li>
+              <li className="">
+                <span className="font-semibold">Daukaia Norge</span>
+                <ul>
+                  <li>IBAN: NO1315067985335</li>
+                  <li>BIC: DNBANOKK</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li className="py-1">
+            If you live in Norway, you can donate by Vipps to #11760
+          </li>
+          <li className="py-1">
+            If you live in Spain, you can get tax deductions from donations made
+            through{" "}
+            <a
+              href="https://www.migranodearena.org/usuario/daukaia-a09"
+              target="_blank"
+              className="underline"
+            >
+              https://www.migranodearena.org/usuario/daukaia-a09
+            </a>
+          </li>
+        </ul>
       </section>
       <section className="mx-auto flex w-[calc(100%-1rem)] lg:w-[min(1200px,(100%-4rem))] flex-col my-12 ">
         <h1 className={`${newsreader.className} text-6xl mt-4 mb-1`}>FAQ</h1>
@@ -85,7 +138,7 @@ export default function Home() {
           </a>{" "}
           to manage or cancel your donations any time.
         </p>
-        <p className="font-bold pt-8 pb-2">
+        {/* <p className="font-bold pt-8 pb-2">
           Are there any alternative ways I can donate?
         </p>
         <p className="pl-4">
@@ -126,7 +179,7 @@ export default function Home() {
               https://www.migranodearena.org/usuario/daukaia-a09
             </a>
           </li>
-        </ul>
+        </ul> */}
         <p className="font-bold pt-8 pb-2">
           How will you inform me about the developments of your work?
         </p>

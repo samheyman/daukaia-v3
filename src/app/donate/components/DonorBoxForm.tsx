@@ -1,6 +1,6 @@
 export default function DonorBoxForm() {
   return (
-    <div className="flex flex-col lg:items-end lg:mx-auto w-full lg:w-[600px] ">
+    <div className="flex flex-col mx-auto items-center w-[420px] h-fit">
       <iframe
         src="https://donorbox.org/embed/daukaia?"
         name="donorbox"
@@ -9,7 +9,7 @@ export default function DonorBoxForm() {
         frameBorder="0"
         scrolling="no"
         height="900px"
-        width="500px"
+        width="420px"
         // style="max-width: 500px; min-width: 250px; max-height:none!important"
         allow="payment"
       ></iframe>
