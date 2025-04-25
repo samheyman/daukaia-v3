@@ -9,11 +9,11 @@ export const OurModel = () => {
         Our model
       </h1>
       <div className="flex flex-col">
-        <h2 className={` text-xl lg:mb-6 font-semibold`}>
-          A NURTURING ENVIRONMENT
-        </h2>
-        <div className="flex flex-col mt-8 lg:flex-row  ">
+        <div className="flex flex-col mt-8 lg:mt-0 lg:flex-row  ">
           <div className="flex-1">
+            <h2 className={` text-xl lg:mb-6 font-semibold`}>
+              A NURTURING ENVIRONMENT
+            </h2>
             <p className="text-lg md:text-base my-4">
               Feeling safe and loved is the foundation for healthy development.
               Fostering a culture of love and acceptance is our educators’
