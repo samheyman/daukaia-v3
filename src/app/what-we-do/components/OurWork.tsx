@@ -7,7 +7,7 @@ export const OurWork = () => {
     <section className=" mx-auto w-full lg:w-[min(1200px,(100%-4rem))] my-12 px-4 lg:px-0  ">
       <div className="flex flex-col lg:flex-row">
         <h1 className={`${newsreader.className} text-6xl mt-4 mb-6`}>
-          Who we are
+          What we do
         </h1>
         <div className="flex-1">
           <h2 className={`${newsreader.className} text-4xl mt-4 mb-6`}>

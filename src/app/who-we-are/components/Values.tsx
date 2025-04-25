@@ -9,7 +9,7 @@ import Innovation from "../../../../public/images/values/Innovation.png";
 
 export default function Values() {
   return (
-    <section className=" mx-auto w-[calc(100%-0.75rem)] lg:w-[min(1200px,(100%-4rem))] my-12">
+    <section className=" mx-auto w-full lg:w-[min(1200px,(100%-4rem))] my-12 px-4 lg:px-0">
       <h2 className={`${newsreader.className} text-4xl mt-4 mb-6 font-bold`}>
         Values
       </h2>

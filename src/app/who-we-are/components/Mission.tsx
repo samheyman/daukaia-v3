@@ -4,12 +4,12 @@ import kidsInPlayground from "../../../../public/images/kids-in-playground.jpg";
 
 export default function Mission() {
   return (
-    <section className=" mx-auto w-full lg:w-[min(1200px,(100%-4rem))] px-4 lg:px-0 flex flex-col lg:flex-row items-end my-12">
+    <section className=" mx-auto w-full lg:w-[min(1200px,(100%-4rem))] px-4 lg:px-0 flex flex-col lg:flex-row lg:items-end my-12">
       {/* <img
         className="w-40 mr-20"
         src="./images/three-flowers.png"
         alt="Children playing"
-      /> */}{" "}
+      /> */}
       <h1 className={`${newsreader.className} text-6xl mt-4 mb-6`}>
         Who we are
       </h1>

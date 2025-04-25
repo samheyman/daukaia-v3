@@ -3,7 +3,7 @@ import { newsreader } from "../fonts";
 export default function Stats() {
   return (
     <section className=" bg-slate-100 ">
-      <dl className="mx-auto flex py-8 py-4 w-[calc(100%-0.75rem)] lg:w-[min(1200px,(100%-4rem))] flex-col lg:flex-row justify-evenly">
+      <dl className="mx-auto flex py-8 py-4 w-full lg:w-[min(1200px,(100%-4rem))] flex-col lg:flex-row justify-evenly px-4 lg:px-0">
         <div className="m-8 flex-1">
           <dd className={`${newsreader.className} text-5xl text-center`}>
             500

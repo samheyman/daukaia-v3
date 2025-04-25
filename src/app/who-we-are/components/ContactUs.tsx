@@ -3,7 +3,7 @@ import { newsreader } from "../../fonts";
 
 export default function ContactUs() {
   return (
-    <section className="mx-auto w-ful lg:w-[min(1200px,100%)] flex flex-col items-center my-12">
+    <section className="mx-auto w-full lg:w-[min(1200px,100%)] flex flex-col items-center my-12 px-4 lg:px-0">
       <div className="flex items-start flex-col w-full my-12">
         <h1 className={`text-6xl mb-12 ${newsreader.className}`}>Contact us</h1>
         <p className="text-lg md:text-base my-4">
