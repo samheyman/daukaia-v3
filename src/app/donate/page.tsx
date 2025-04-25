@@ -72,13 +72,13 @@ export default function Home() {
           Bank transfers
         </h2>
         <p className="text-lg md:text-base my-4">
-          If you for any reason you prefer not to use our online form, there are
-          several other options available:
+          If you prefer not to use our online form, there are several other
+          options available:
         </p>
-        <ul className="list-disc ml-4 pl-4">
+        <ul className="text-lg md:text-base list-disc ml-4 pl-4">
           <li className="py-1">
-            <span className="bold">Bank transfer</span>: You can make a direct
-            transfer to one of our bank accounts:
+            <span className="font-bold">Bank transfer</span> - You can make a
+            direct transfer to one of our bank accounts:
             <ul className="">
               <li className="py-2">
                 <span className="font-semibold">
@@ -99,8 +99,8 @@ export default function Home() {
             </ul>
           </li>
           <li className="py-1">
-            <span className="bold">VIPS</span>:If you live in Norway, you can
-            donate by Vipps to #11760
+            <span className="font-bold">VIPS</span> - If you live in Norway, you
+            can donate by Vipps to #11760
           </li>
         </ul>
       </section>
