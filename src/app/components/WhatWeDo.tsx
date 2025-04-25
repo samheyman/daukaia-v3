@@ -3,7 +3,7 @@ import { newsreader } from "../fonts";
 
 export default function WhatWeDo() {
   return (
-    <section className="mx-auto flex w-[calc(100%-1.2rem)] lg:w-[min(1200px,(100%-4rem))] flex-col my-12">
+    <section className="mx-auto flex w-full lg:w-[min(1200px,(100%-4rem))] flex-col my-12 px-4 lg:px-0">
       <div className="flex lg:flex-row what-we-do flex-col-reverse items-end">
         <div className="mx-0 lg:w-1/2">
           <h1 className={`${newsreader.className} text-6xl mt-4 mb-6`}>
@@ -43,7 +43,7 @@ export default function WhatWeDo() {
         <img
           src="./images/flower-in-hands.png"
           alt="Children playing"
-          className="w-40 mt-4 ml-20 lg:w-96 "
+          className="w-60 h-auto mt-4 ml-20 lg:w-96 "
         />
       </div>
     </section>

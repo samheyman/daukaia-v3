@@ -3,7 +3,7 @@ import { newsreader } from "../fonts";
 
 export default function WhoWeAre() {
   return (
-    <section className="flex mx-auto w-[calc(100%-0.75rem)] lg:w-[min(1200px,(100%-4rem))] who-we-are flex-col lg:flex-row items-end my-12">
+    <section className="flex mx-auto w-full lg:w-[min(1200px,(100%-4rem))] who-we-are flex-col lg:flex-row items-end my-12 px-4 lg:px-0">
       <img
         className="w-40 lg:mr-20 lg:w-96"
         src="./images/three-flowers.png"

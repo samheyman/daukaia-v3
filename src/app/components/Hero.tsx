@@ -3,7 +3,7 @@ import { newsreader } from "../fonts";
 
 export default function Hero() {
   return (
-    <section className="hero mx-auto h-[500px] flex flex-col lg:flex-row w-[calc(100%-0.75rem)] lg:w-[min(1600px,(100%))]">
+    <section className="hero mx-auto lg:h-[500px] flex flex-col lg:flex-row w-[100%] lg:w-[min(1600px,(100%))]">
       <div className="image-container h-full lg:w-1/2 overflow-hidden">
         <div className="gradient-right h-full"></div>
         <img
@@ -11,7 +11,7 @@ export default function Hero() {
           alt="Girl making a heart with her hands"
         />
       </div>
-      <div className=" bg-yellow-500 py-8 flex flex-col justify-center items-center w-full h-full lg:w-1/2">
+      <div className=" bg-yellow-500 pt-12 pb-16 lg:py-8 flex flex-col justify-center items-center w-full h-full lg:w-1/2">
         <div className="flex flex-col items-center justify-center">
           <p className={`${newsreader.className}`}>
             Providing a <span>safe space</span>
@@ -20,21 +20,17 @@ export default function Hero() {
             for <span>brighter futures</span>
           </p>
           <a
-            className="mt-8 rounded-full border border-solid transition-colors flex items-center justify-center text-background gap-2 py-2 px-4 sm:px-9 hover:bg-clr-accent-500"
+            className="mt-8 text-xl lg: text-3xl bg-white uppercase rounded-full border border-solid transition-colors flex items-center justify-center text-background gap-2 py-2 px-4 sm:px-9 hover:bg-clr-accent-500 w-fit"
             href="/donate"
             target="_blank"
             rel="noopener noreferrer"
             style={{
-              backgroundColor: "white",
               color: "var(--clr-accent-500)",
-              textTransform: "uppercase",
               fontWeight: 900,
-              maxWidth: "fit-content",
-              fontSize: 32,
             }}
           >
             Donate
-          </a>{" "}
+          </a>
         </div>
       </div>
     </section>
