@@ -69,7 +69,7 @@ export default function Home() {
       </section>
       <section className="mx-auto flex w-full lg:w-[min(1200px,(100%-4rem))] flex-col mt-12">
         <h2 className={`${newsreader.className} text-5xl mt-2 mb-6`}>
-          Bank transfer
+          Other options
         </h2>
         <p className="text-lg md:text-base my-4">
           If you prefer not to use our online form, there are several other

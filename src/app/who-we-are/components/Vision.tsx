@@ -2,7 +2,7 @@ import { newsreader } from "../../fonts";
 
 export default function Vision() {
   return (
-    <section className="bg-[--clr-accent-100] pt-12 pb-24 mx-auto flex w-full lg:w-[min(1200px,(100%-4rem))] flex-col my-12 px-4 lg:px-0">
+    <section className="bg-[--clr-accent-100] pt-12 pb-24 lg:pb-12  mx-auto flex w-full lg:w-[min(1200px,(100%-4rem))] flex-col my-12 px-4 lg:px-12">
       <div className="flex lg:flex-row what-we-do flex-col-reverse items-end">
         <div className="mx-0 w-full text-center">
           <h1 className={`${newsreader.className} text-4xl mt-4 mb-6`}>
