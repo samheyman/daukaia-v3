@@ -4,28 +4,28 @@ import GirlWorking from "../../../../public/images/girl-working.jpg";
 
 export const OurWork = () => {
   return (
-    <section className=" mx-auto w-[calc(100%-0.75rem)] lg:w-[min(1200px,(100%-4rem))] ">
+    <section className=" mx-auto w-full lg:w-[min(1200px,(100%-4rem))] my-12 px-4 lg:px-0  ">
       <div className="flex flex-col lg:flex-row">
         <div className="flex-1">
           <h1 className={`${newsreader.className} text-4xl mt-4 mb-6`}>
             Our work
           </h1>
-          <p>
+          <p className="text-lg md:text-base my-4">
             We provide daily, direct support to children in vulnerable
             situations, complementing their formal education in collaboration
             with their schools and families.
           </p>
-          <p>
+          <p className="text-lg md:text-base my-4">
             We are located in a pre-school in the Noel Wheelock neighborhood in
             Ocotal, where we have our own classroom, kitchen, playground and
             vegetable garden.
           </p>
-          <p>
+          <p className="text-lg md:text-base my-4">
             Children at Daukaia receive a daily meal, educational and emotional
             support, and the opportunity to engage in activities and play.
           </p>
         </div>
-        <div className="w-96 lg:ml-8 mt-1">
+        <div className="w-96 lg:ml-8 mt-12 lg:mt-1">
           <Image
             src={GirlWorking}
             alt=""

@@ -4,8 +4,8 @@ import Group from "../../../../public/images/group.jpg";
 
 export const OurModel = () => {
   return (
-    <section className=" mx-auto w-[calc(100%-0.75rem)] lg:w-[min(1200px,(100%-4rem))] my-12">
-      <h1 className={`${newsreader.className} text-4xl mt-4 lg:mb-6`}>
+    <section className=" mx-auto w-full lg:w-[min(1200px,(100%-4rem))] my-12 px-4 lg:px-0  ">
+      <h1 className={`${newsreader.className} text-4xl my-4 lg:mb-6`}>
         Our model
       </h1>
       <div className="flex flex-col">
@@ -14,7 +14,7 @@ export const OurModel = () => {
         </h2>
         <div className="flex flex-col mt-8 lg:flex-row  ">
           <div className="flex-1">
-            <p>
+            <p className="text-lg md:text-base my-4">
               Feeling safe and loved is the foundation for healthy development.
               Fostering a culture of love and acceptance is our educators’
               super-power!

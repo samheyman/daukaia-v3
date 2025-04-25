@@ -2,7 +2,7 @@ import { newsreader } from "../../fonts";
 
 export default function Team() {
   return (
-    <section className="mx-auto flex w-[calc(100%-0.75rem)] lg:w-[min(1200px,(100%-4rem))] flex-col my-12">
+    <section className="mx-auto flex w-full lg:w-[min(1200px,(100%-4rem))] flex-col my-12 px-4 lg:px-0">
       <div className="flex items-start flex-col">
         <h1 className={`text-6xl ${newsreader.className}`}>Team</h1>
         <h2 className={`text-3xl font-bold ${newsreader.className} my-8`}>

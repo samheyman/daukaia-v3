@@ -6,7 +6,7 @@ import DonorBoxForm from "./components/DonorBoxForm";
 export default function Home() {
   return (
     <>
-      <section className="mx-auto flex w-[calc(100%-0.75rem)] lg:w-[min(1200px,(100%-4rem))] flex-col mt-12">
+      <section className="mx-auto flex w-full lg:w-[min(1200px,(100%-4rem))] flex-col my-12 px-4 lg:px-0">
         <div className="flex flex-col">
           <h1 className={`${newsreader.className} text-6xl mt-4 mb-1`}>
             Donate
@@ -16,7 +16,7 @@ export default function Home() {
           </h2>
           <div className="flex flex-col lg:flex-row justify-between mt-4">
             <div className="flex flex-col flex-1 ">
-              <p className="py-1 pb-8">
+              <p className="text-lg md:text-base my-4 pb-8">
                 Your donation provides children of Ocotal with the opportunity
                 of a brighter future in a safe and caring environment. By
                 donating today, you will help create lasting, positive change in
@@ -25,17 +25,16 @@ export default function Home() {
               <Image
                 src={kidsInPlayground}
                 alt="Kids playing outside in the playground"
-                className="mx-auto"
-                style={{ height: "400px", objectFit: "contain" }}
+                className="mx-auto h-96 object-contain"
               />
-              <p className="py-1 pt-8">
+              <p className="text-lg md:text-base my-4 pt-8">
                 Children need stability. Please consider making a recurring
                 donation as this helps us plan our work ahead. Every
                 contribution, big or small, goes a long way in helping us build
                 a better future, one child at a time. Your support helps
                 provide:
               </p>
-              <ul className="list-disc ml-4">
+              <ul className="list-disc ml-4 text-lg md:text-base">
                 <li className="py-1">school materials and tutoring</li>
                 <li className="py-1">
                   emotional support and life skills workshops
@@ -72,23 +71,26 @@ export default function Home() {
         <h2 className={`${newsreader.className} text-5xl mt-2 mb-6`}>
           Via bank transfer
         </h2>
-        <p className="pl-4">
-          If you for any reason prefer not using our online form, there are
+        <p className="text-lg md:text-base my-4">
+          If you for any reason you prefer not to use our online form, there are
           several other options available:
         </p>
         <ul className="list-disc ml-4 pl-4">
           <li className="py-1">
-            You can make a direct wire transfer to one of our bank accounts:
+            <span className="bold">Bank transfer</span>: You can make a direct
+            transfer to one of our bank accounts:
             <ul className="">
               <li className="py-2">
-                <span className="font-semibold">Asociación Daukaia</span>
+                <span className="font-semibold">
+                  Asociación Daukaia (Spain)
+                </span>
                 <ul>
                   <li>IBAN: ES85 00491954112010009978</li>
                   <li>BIC: BSCHESMMXXX</li>
                 </ul>
               </li>
               <li className="">
-                <span className="font-semibold">Daukaia Norge</span>
+                <span className="font-semibold">Daukaia Norge (Norway)</span>
                 <ul>
                   <li>IBAN: NO1315067985335</li>
                   <li>BIC: DNBANOKK</li>
@@ -97,18 +99,8 @@ export default function Home() {
             </ul>
           </li>
           <li className="py-1">
-            If you live in Norway, you can donate by Vipps to #11760
-          </li>
-          <li className="py-1">
-            If you live in Spain, you can get tax deductions from donations made
-            through{" "}
-            <a
-              href="https://www.migranodearena.org/usuario/daukaia-a09"
-              target="_blank"
-              className="underline"
-            >
-              https://www.migranodearena.org/usuario/daukaia-a09
-            </a>
+            <span className="bold">VIPS</span>:If you live in Norway, you can
+            donate by Vipps to #11760
           </li>
         </ul>
       </section>
