@@ -20,7 +20,7 @@ export default function Hero() {
             for <span>brighter futures</span>
           </p>
           <a
-            className="mt-8 text-xl lg:text-3xl font-bold bg-white uppercase rounded-full border border-solid transition-colors flex items-center justify-center text-background gap-2 py-2 px-4 sm:px-9 clr-[--clr-accent-500] hover:bg-clr-accent-500 w-fit"
+            className="mt-8 text-xl lg:text-3xl font-bold bg-white uppercase rounded-full border border-solid transition-colors flex items-center justify-center text-background gap-2 py-2 px-4 sm:px-9 text-[--clr-accent-500] hover:bg-clr-accent-500 w-fit"
             href="/donate"
           >
             Donate
