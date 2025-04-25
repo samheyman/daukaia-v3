@@ -67,7 +67,7 @@ export default function Home() {
           </a>
         </p>
       </section>
-      <section className="mx-auto flex w-full lg:w-[min(1200px,(100%-4rem))] flex-col mt-12  px-4 lg:px-0">
+      <section className="mx-auto flex w-full lg:w-[min(1200px,(100%-4rem))] flex-col mt-12">
         <h2 className={`${newsreader.className} text-5xl mt-2 mb-6`}>
           Bank transfers
         </h2>

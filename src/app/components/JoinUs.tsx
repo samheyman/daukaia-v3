@@ -25,7 +25,7 @@ export default function JoinUs() {
         </p>
         <div className="flex my-12 justify-center items-center">
           <Link
-            className="text-center w-full mx-3 rounded-full bg-yellow-300 px-3 lg:px-8 py-3 text-3 font-semibold whitespace-nowrap text-neutral-500"
+            className="text-center w-full mx-3 rounded-full bg-yellow-300 px-8 lg:px-8 py-3 text-3 font-semibold whitespace-nowrap text-neutral-500"
             href="/what-we-do"
           >
             Find out more
