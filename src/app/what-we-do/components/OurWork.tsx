@@ -5,7 +5,7 @@ import GirlWorking from "../../../../public/images/girl-working.jpg";
 export const OurWork = () => {
   return (
     <section className=" mx-auto w-full lg:w-[min(1200px,(100%-4rem))] my-12 px-4 lg:px-0  ">
-      <div className="flex flex-col lg:flex-row">
+      <div className="flex flex-col">
         <h1 className={`${newsreader.className} text-6xl mt-4 mb-6`}>
           What we do
         </h1>
