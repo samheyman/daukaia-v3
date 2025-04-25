@@ -14,7 +14,7 @@ export default function Hero() {
       <div className=" bg-yellow-500 py-8 flex flex-col justify-center items-center w-full h-full lg:w-1/2">
         <div className="flex flex-col items-center justify-center">
           <p className={`${newsreader.className}`}>
-            Providing <span>safe spaces</span>
+            Providing a <span>safe space</span>
           </p>
           <p className={`${newsreader.className}`}>
             for <span>brighter futures</span>
