@@ -1,5 +1,5 @@
 import Image from "next/image";
-import kidsInPlayground from "../../../public/images/kids-in-playground-2.jpg";
+import kidsInPlayground from "../../../public/images/kids-in-playground.jpg";
 import { newsreader } from "../fonts";
 import DonorBoxForm from "./components/DonorBoxForm";
 
@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <section className="mx-auto flex w-full lg:w-[min(1200px,(100%-4rem))] flex-col my-12 px-4 lg:px-0">
         <div className="flex flex-col">
-          <h1 className={`${newsreader.className} text-6xl mt-4 mb-1`}>
+          <h1 className={`${newsreader.className} text-6xl lg:mt-4 mb-1`}>
             Donate
           </h1>
           <h2 className={`${newsreader.className} text-5xl mt-8 mb-0`}>
@@ -16,7 +16,7 @@ export default function Home() {
           </h2>
           <div className="flex flex-col lg:flex-row justify-between mt-4">
             <div className="flex flex-col flex-1 ">
-              <p className="text-lg md:text-base my-4 pb-8">
+              <p className="text-lg md:text-base my-4">
                 Your donation provides children of Ocotal with the opportunity
                 of a brighter future in a safe and caring environment. By
                 donating today, you will help create lasting, positive change in
@@ -27,7 +27,7 @@ export default function Home() {
                 alt="Kids playing outside in the playground"
                 className="mx-auto h-96 object-contain"
               />
-              <p className="text-lg md:text-base my-4 pt-8">
+              <p className="text-lg md:text-base my-4">
                 Children need stability. Please consider making a recurring
                 donation as this helps us plan our work ahead. Every
                 contribution, big or small, goes a long way in helping us build
@@ -50,7 +50,7 @@ export default function Home() {
       {/* <section
         className={` ${newsreader.className} flex flex-col text-lg items-start justify-center  my-8 py-12`}
       > */}
-      <section className="mx-auto flex w-[calc(100%-0.75rem)] lg:w-[min(1200px,(100%-4rem))] flex-col mt-12 ">
+      <section className="mx-auto flex w-full lg:w-[min(1200px,(100%-4rem))] flex-col mt-12  px-4 lg:px-0">
         <h2 className={`${newsreader.className} text-5xl mt-2 mb-6`}>
           Via DonorBox
         </h2>
@@ -67,9 +67,9 @@ export default function Home() {
           </a>
         </p>
       </section>
-      <section className="mx-auto flex w-[calc(100%-0.75rem)] lg:w-[min(1200px,(100%-4rem))] flex-col mt-12 ">
+      <section className="mx-auto flex w-full lg:w-[min(1200px,(100%-4rem))] flex-col mt-12  px-4 lg:px-0">
         <h2 className={`${newsreader.className} text-5xl mt-2 mb-6`}>
-          Via bank transfer
+          Bank transfers
         </h2>
         <p className="text-lg md:text-base my-4">
           If you for any reason you prefer not to use our online form, there are
@@ -104,7 +104,7 @@ export default function Home() {
           </li>
         </ul>
       </section>
-      <section className="mx-auto flex w-[calc(100%-1rem)] lg:w-[min(1200px,(100%-4rem))] flex-col my-12 ">
+      <section className="mx-auto flex w-full lg:w-[min(1200px,(100%-4rem))] flex-col my-12 px-4 lg:px-0">
         <h1 className={`${newsreader.className} text-6xl mt-4 mb-1`}>FAQ</h1>
         <p className="font-bold pt-8 pb-2">How will my donation be spent?</p>
         <p className="pl-4">

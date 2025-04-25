@@ -6,10 +6,13 @@ export const OurWork = () => {
   return (
     <section className=" mx-auto w-full lg:w-[min(1200px,(100%-4rem))] my-12 px-4 lg:px-0  ">
       <div className="flex flex-col lg:flex-row">
+        <h1 className={`${newsreader.className} text-6xl mt-4 mb-6`}>
+          Who we are
+        </h1>
         <div className="flex-1">
-          <h1 className={`${newsreader.className} text-4xl mt-4 mb-6`}>
+          <h2 className={`${newsreader.className} text-4xl mt-4 mb-6`}>
             Our work
-          </h1>
+          </h2>
           <p className="text-lg md:text-base my-4">
             We provide daily, direct support to children in vulnerable
             situations, complementing their formal education in collaboration
