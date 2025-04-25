@@ -1,6 +1,7 @@
 import Image from "next/image";
 import kidsInPlayground from "../../../public/images/kids-in-playground-2.jpg";
 import { newsreader } from "../fonts";
+import DonorBoxForm from "./components/DonorBoxForm";
 
 export default function Home() {
   return (
@@ -44,20 +45,7 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-            <div className="flex flex-col items-end mx-auto w-full lg:w-[600px] ">
-              <iframe
-                src="https://donorbox.org/embed/daukaia?"
-                name="donorbox"
-                // allowpaymentrequest={true}
-                seamless={true}
-                frameBorder="0"
-                scrolling="no"
-                height="900px"
-                width="500px"
-                // style="max-width: 500px; min-width: 250px; max-height:none!important"
-                allow="payment"
-              ></iframe>
-            </div>
+            <DonorBoxForm />
           </div>
         </div>
       </section>
