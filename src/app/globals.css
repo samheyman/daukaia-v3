@@ -111,79 +111,14 @@ footer {
 
 .footer {
   color: var(--clr-neutral-500);
-  /* padding-block: 2rem;
-  padding-inline: var(--vertical-padding); */
-  /* font-size: 0.75rem; */
 }
-
-/* footer ul {
-  display: inline-block !important;
-  list-style-type: none;
-  line-height: 1.5rem;
-}
-
-footer li {
-  display: inline-block !important;
-  height: 1.5rem;
-  padding-inline: 0.5rem;
-} */
 
 /* ****************** 
 HERO SECTION
 ****************** */
 
-.hero {
-  justify-content: center;
-  align-items: center;
-}
-
 @media (min-width: 1024px) {
-  .hero {
-    height: 610px;
-    overflow: hidden;
-  }
-}
-
-.hero .image-container {
-  /* height: 800px;
-  width: 80%; */
-  position: relative;
-}
-
-.hero span {
-  font-weight: 700;
-  font-style: italic;
-}
-
-.hero p {
-  font-size: 2rem;
-  letter-spacing: -2px;
-  line-height: 1.2em;
-  text-align: center;
-}
-
-.gradient-right {
-  display: none;
-}
-
-@media (min-width: 1024px) {
-  .hero p {
-    font-size: 4rem;
-  }
-
-  .text-container {
-    padding-right: 3rem;
-  }
-}
-
-/* laptop > 1024px */
-@media (min-width: 1024px) {
-  .hero {
-    flex-direction: row;
-  }
-
   .gradient-right {
-    display: block;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -192,10 +127,6 @@ HERO SECTION
       transparent 60%,
       var(--clr-accent-500)
     );
-  }
-
-  .text-container {
-    width: 57%;
   }
 }
 

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { newsreader } from "../fonts";
 
 export default function CasaPueblito() {
@@ -8,7 +9,9 @@ export default function CasaPueblito() {
       >
         Proud partner of <em className="font-bold">Casa Pueblito</em>
       </p>
-      <img src="./images/casaPueblito.png" alt="Casa Pueblito logo" />
+      <Link href="https://www.casapueblito.org/" target="_blank">
+        <img src="./images/casaPueblito.png" alt="Casa Pueblito logo" />
+      </Link>
     </section>
   );
 }

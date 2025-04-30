@@ -17,7 +17,7 @@ export default function Stats() {
             65%
           </dd>
           <dt className="text-lg text-center pt-2">
-            of beneficiaires achieve top grades
+            of children go on to achieve top grades
           </dt>
         </div>
         <div className="m-8 flex-1">

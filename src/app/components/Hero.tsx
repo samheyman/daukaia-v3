@@ -3,20 +3,25 @@ import { newsreader } from "../fonts";
 
 export default function Hero() {
   return (
-    <section className="hero mx-auto lg:h-[500px] flex flex-col lg:flex-row w-[100%] lg:w-[min(1600px,(100%))]">
-      <div className="image-container h-full lg:w-1/2 overflow-hidden">
-        <div className="gradient-right h-full"></div>
+    <section className="hero mx-auto bg-yellow-500 lg:h-max flex flex-col items-center lg:flex-row w-full lg:w-[min(1600px,(100%))]">
+      <div className="flex-1 h-full relative overflow-hidden">
+        <div className="gradient-right h-full hidden lg:block"></div>
         <img
           src="./images/girl-heart-2.jpg"
           alt="Girl making a heart with her hands"
+          className="w-full object-cover"
         />
       </div>
-      <div className=" bg-yellow-500 pt-12 pb-16 lg:py-8 flex flex-col justify-center items-center w-full h-full lg:w-1/2">
-        <div className="flex flex-col items-center justify-center">
-          <p className={`${newsreader.className}`}>
-            Providing a <span>safe space</span>
+      <div className="flex-1 h-full  bg-yellow-500 pt-12 pb-16 lg:py-8 flex flex-col justify-center items-center ">
+        <div className="flex flex-col items-center justify-center h-full">
+          <p
+            className={`${newsreader.className} text-3xl lg:text-5xl text-center tracking-[-2px] lg:leading-[1.2em]`}
+          >
+            Providing a <span className="font-bold italic">safe space</span>
           </p>
-          <p className={`${newsreader.className}`}>
+          <p
+            className={`${newsreader.className} text-3xl lg:text-5xl text-center tracking-[-2px] lg:leading-[1.2em]`}
+          >
             for <span>brighter futures</span>
           </p>
           <a
