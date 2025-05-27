@@ -15,7 +15,7 @@ export default function ContactUs() {
         <p className="text-lg md:text-base my-4">
           Send us an e-mail:{" "}
           <a
-            className="font-bold text-blue-500 block"
+            className="font-bold text-blue-500"
             href="mailto:hello@daukaia.org"
           >
             hello@daukaia.org

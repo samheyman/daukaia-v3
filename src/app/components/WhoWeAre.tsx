@@ -14,17 +14,21 @@ export default function WhoWeAre() {
           Who we are
         </h1>
         <p className="text-lg md:text-base my-4">
-          We are a passionate collective of local and global changemakers
-          committed to giving the children of Ocotal the opportunity of a
-          fulfilling life. Most of all, we&apos;re normal people wanting to make
-          a difference.
+          We are a small volunteer-run organization led by a school teacher in
+          Norway, and with a small, passionate team on the ground.
         </p>
+
         <p className="text-lg md:text-base my-4">
           We believe in the transformative power of community, and foster
           long-term impact through a holistic, grassroots approach that combines
           education, empowerment, and sustainable practices.
         </p>
-        <div className="flex my-8 justify-center items-center">
+        <p className="text-lg md:text-base my-4">
+          And, of course, we’re able to do this thanks to the kind donations
+          from people who choose to care and lend a helping hand. With your help
+          we can truly make dreams come true.
+        </p>
+        <div className="flex my-8 justify-start items-center">
           <Link
             className="block max-w-fit mr-8 px-8 py-1 rounded-full bg-yellow-300 px-3 py-3 text-3 font-semibold whitespace-nowrap text-neutral-500"
             href="/who-we-are"

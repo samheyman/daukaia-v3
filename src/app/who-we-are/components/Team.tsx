@@ -5,6 +5,23 @@ export default function Team() {
     <section className="mx-auto flex w-full lg:w-[min(1200px,(100%-4rem))] flex-col my-12 px-4 lg:px-0">
       <div className="flex items-start flex-col">
         <h1 className={`text-6xl ${newsreader.className}`}>Team</h1>
+        <h2 className={`text-3xl font-bold ${newsreader.className} my-12`}>
+          Team lead
+        </h2>
+        <div className="flex flex-col lg:flex-row justify-center items-center w-full gap-8 lg:gap-8">
+          <div className="flex flex-col items-center ">
+            <div className="border border-4 rounded-full border-[#00b596] p-1">
+              <img src="/images/team/eline_green.png" className="w-60 " />
+            </div>
+            <p className="font-bold mt-4">Eline Lund</p>
+            <p>President</p>
+          </div>
+          {/* <div className="flex flex-col items-center">
+            <img src="/images/team/alberto_green.png" className="w-60" />
+            <p className="font-bold mt-4">Alberto Alonso</p>
+            <p>President (Spain)</p>
+          </div> */}
+        </div>
         <h2 className={`text-3xl font-bold ${newsreader.className} my-8`}>
           The team in Ocotal
         </h2>
@@ -25,21 +42,7 @@ export default function Team() {
             <p>Educator (Volunteer)</p>
           </div>
         </div>
-        <h2 className={`text-3xl font-bold ${newsreader.className} my-12`}>
-          Leadership team
-        </h2>
-        <div className="flex flex-col lg:flex-row justify-center items-center w-full gap-8 lg:gap-8">
-          <div className="flex flex-col items-center">
-            <img src="/images/team/eline_green.png" className="w-60" />
-            <p className="font-bold mt-4">Eline Lund</p>
-            <p>President</p>
-          </div>
-          {/* <div className="flex flex-col items-center">
-            <img src="/images/team/alberto_green.png" className="w-60" />
-            <p className="font-bold mt-4">Alberto Alonso</p>
-            <p>President (Spain)</p>
-          </div> */}
-        </div>
+
         {/* <div className="flex flex-col lg:flex-row justify-center items-center w-full mt-8 gap-8 lg:gap-8">
           <div className="flex flex-col items-center">
             <img src="/images/team/javier.png" className="w-60" />
@@ -62,7 +65,7 @@ export default function Team() {
         </div> */}
         <div className="flex flex-col w-full my-12">
           <h2 className={`text-3xl font-bold ${newsreader.className} my-8`}>
-            With the support of all our contributors and past team members
+            Contributors and past team members
           </h2>
           <div className="flex flex-col lg:flex-row w-full mb-12">
             <div className="flex-1">
@@ -93,15 +96,23 @@ export default function Team() {
                 <li className="py-1">
                   <span className="font-bold">Zaneta Statevska</span> -
                   Communications Manager
-                </li>
+                </li>{" "}
                 <li className="py-1">
                   <span className="font-bold">Laura Ayerdi</span> - Volunteer
                   Coordinator
-                </li>
+                </li>{" "}
                 <li className="py-1">
                   <span className="font-bold">Javier García</span> - Impact
                   Manager
                 </li>
+              </ul>
+            </div>
+
+            <div className="flex-1">
+              {/* <h2 className={`text-3xl font-bold ${newsreader.className} my-8`}>
+              Co-founders and Advisory Board
+            </h2> */}
+              <ul className="list-disc ml-4">
                 <li className="py-1">
                   <span className="font-bold">Jenny Hernandez</span> - Legal
                   Advisor
@@ -112,39 +123,32 @@ export default function Team() {
                   </span>{" "}
                   - Teacher trainers
                 </li>
+                <li className="py-1">
+                  <span className="font-bold">Carles López</span> - Empieza por
+                  Educar
+                </li>
+                <li className="py-1">
+                  <span className="font-bold">Daniel Olalla</span> - Universidad
+                  Rey Juan Carlos
+                </li>
+                <li className="py-1">
+                  <span className="font-bold">Jara Costa</span> - Institut
+                  Escola Renaixença
+                </li>
+                <li className="py-1">
+                  <span className="font-bold">Javier Fernández</span> -
+                  Instituto Cervantes
+                </li>
+                <li className="py-1">
+                  <span className="font-bold">Julián Martín</span> - CP IFP
+                  Federica Montseny
+                </li>
+                <li className="py-1">
+                  <span className="font-bold">Pablo Millanes</span> - Teach for
+                  All
+                </li>
               </ul>
             </div>
-          </div>
-          <div className="flex-1">
-            {/* <h2 className={`text-3xl font-bold ${newsreader.className} my-8`}>
-              Co-founders and Advisory Board
-            </h2> */}
-            <ul className="list-disc ml-4">
-              <li className="py-1">
-                <span className="font-bold">Carles López</span> - Empieza por
-                Educar
-              </li>
-              <li className="py-1">
-                <span className="font-bold">Daniel Olalla</span> - Universidad
-                Rey Juan Carlos
-              </li>
-              <li className="py-1">
-                <span className="font-bold">Jara Costa</span> - Institut Escola
-                Renaixença
-              </li>
-              <li className="py-1">
-                <span className="font-bold">Javier Fernández</span> - Instituto
-                Cervantes
-              </li>
-              <li className="py-1">
-                <span className="font-bold">Julián Martín</span> - CP IFP
-                Federica Montseny
-              </li>
-              <li className="py-1">
-                <span className="font-bold">Pablo Millanes</span> - Teach for
-                All
-              </li>
-            </ul>
           </div>
         </div>
       </div>
