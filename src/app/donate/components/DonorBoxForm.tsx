@@ -1,6 +1,6 @@
 export default function DonorBoxForm() {
   return (
-    <div className="flex flex-col mx-auto items-center w-[420px] h-fit">
+    <div className="flex flex-col items-center w-[420px] h-fit ">
       <iframe
         src="https://donorbox.org/embed/daukaia?"
         name="donorbox"

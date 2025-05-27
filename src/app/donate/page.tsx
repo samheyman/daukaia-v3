@@ -11,7 +11,7 @@ export default function Home() {
           <h1 className={`${newsreader.className} text-6xl lg:mt-4 mb-1`}>
             Donate
           </h1>
-          <h2 className={`${newsreader.className} text-5xl mt-8 mb-0`}>
+          <h2 className={`${newsreader.className} text-5xl mt-4 mb-0`}>
             Invest in a child&apos;s potential - donate today!
           </h2>
           <div className="flex flex-col lg:flex-row justify-between mt-4">
@@ -22,12 +22,7 @@ export default function Home() {
                 donating today, you will help create lasting, positive change in
                 their lives and in their community.
               </p>
-              <Image
-                src={kidsInPlayground}
-                alt="Kids playing outside in the playground"
-                className="mx-auto h-96 object-contain"
-              />
-              <p className="text-lg md:text-base my-4">
+              <p className="text-lg md:text-base my-2">
                 Children need stability. Please consider making a recurring
                 donation as this helps us plan our work ahead. Every
                 contribution, big or small, goes a long way in helping us build
@@ -44,43 +39,65 @@ export default function Home() {
                 </li>
               </ul>
             </div>
+            <div className="flex flex-col flex-1 ">
+              <Image
+                src={kidsInPlayground}
+                alt="Kids playing outside in the playground"
+                className="mx-auto h-96 object-contain mt-4"
+              />
+            </div>
           </div>
         </div>
       </section>
       {/* <section
         className={` ${newsreader.className} flex flex-col text-lg items-start justify-center  my-8 py-12`}
       > */}
-      <section className="mx-auto flex w-full lg:w-[min(1200px,(100%-4rem))] flex-col mt-12  px-4 lg:px-0">
-        <h2 className={`${newsreader.className} text-5xl mt-2 mb-6`}>
-          Via DonorBox
-        </h2>
-        <DonorBoxForm />
-
-        <p className="text-xl px-4 text-center">
-          You can also go to our Donorbox donations page:{" "}
-          <a
-            href="https://donorbox.org/daukaia"
-            target="_blank"
-            className="block"
-          >
-            https://donorbox.org/daukaia
-          </a>
-        </p>
-      </section>
-      <section className="mx-auto flex w-full lg:w-[min(1200px,(100%-4rem))] flex-col mt-12">
-        <h2 className={`${newsreader.className} text-5xl mt-2 mb-6`}>
-          Other options
-        </h2>
-        <p className="text-lg md:text-base my-4">
+      <section className="mx-auto flex w-full lg:w-[min(1200px,(100%-4rem))] flex-col mt-12 px-4 lg:px-0 justify-start">
+        <div className="flex flex-col lg:flex-row justify-between mt-4">
+          <div className="flex flex-col flex-1 ">
+            <h3 className={`${newsreader.className} text-3xl mt-2 mb-6`}>
+              Via DonorBox
+            </h3>
+            <DonorBoxForm />
+            {/* <p className="text-xl px-4 text-center">
+              You can also go to our Donorbox donations page:{" "}
+              <a
+                href="https://donorbox.org/daukaia"
+                target="_blank"
+                className="block"
+              >
+                https://donorbox.org/daukaia
+              </a>
+            </p> */}
+          </div>
+          <div className="flex flex-col flex-1 ">
+            <h3 className={`${newsreader.className} text-3xl mt-2 mb-6`}>
+              Via bank transfer
+            </h3>
+            {/* <p className="text-lg md:text-base my-4">
           If you prefer not to use our online form, there are several other
           options available:
-        </p>
-        <ul className="text-lg md:text-base list-disc ml-4 pl-4">
-          <li className="py-1">
-            <span className="font-bold">Bank transfer</span> - You can make a
-            direct transfer to one of our bank accounts:
+        </p> */}
+            {/* <h2 className="py-1">
+          <span className="font-bold">VIPS</span> - If you live in Norway, you
+          can donate by
+        </h2>
+        <h2 className="py-1">
+          <span className="font-bold">Bank transfer</span> - You can make a
+          direct transfer to one of our bank accounts:
+        </h2> */}
             <ul className="">
-              <li className="py-2">
+              <li className="py-4">
+                <span className="font-semibold">Daukaia Norge (Norway)</span>
+                <ul>
+                  <li>IBAN: NO1315067985335</li>
+                  <li>BIC: DNBANOKK</li>
+                </ul>
+                <ul>
+                  <li>or Vipps to #11760</li>
+                </ul>
+              </li>
+              <li className="py-4">
                 <span className="font-semibold">
                   Asociación Daukaia (Spain)
                 </span>
@@ -89,21 +106,11 @@ export default function Home() {
                   <li>BIC: BSCHESMMXXX</li>
                 </ul>
               </li>
-              <li className="">
-                <span className="font-semibold">Daukaia Norge (Norway)</span>
-                <ul>
-                  <li>IBAN: NO1315067985335</li>
-                  <li>BIC: DNBANOKK</li>
-                </ul>
-              </li>
             </ul>
-          </li>
-          <li className="py-1">
-            <span className="font-bold">VIPS</span> - If you live in Norway, you
-            can donate by Vipps to #11760
-          </li>
-        </ul>
+          </div>
+        </div>
       </section>
+      <section className="mx-auto flex w-full lg:w-[min(1200px,(100%-4rem))] flex-col mt-12"></section>
       <section className="mx-auto flex w-full lg:w-[min(1200px,(100%-4rem))] flex-col my-12 px-4 lg:px-0">
         <h1 className={`${newsreader.className} text-6xl mt-4 mb-1`}>FAQ</h1>
         <p className="font-bold pt-8 pb-2">How will my donation be spent?</p>
