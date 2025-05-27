@@ -40,7 +40,7 @@ export const WhyOcotal = () => {
           </p>
         </div>
       </div>
-      <p className="my-12 px-8 py-4 border border-gray-900 bg-[--clr-accent-100] rounded-xl">
+      <p className="my-12 px-8 py-12  bg-[--clr-accent-100] rounded-xl">
         Ocotal is a municipality of around 50.000 inhabitants in the north of
         Nicaragua, nested between mountains and pine trees, and is the capital
         of the department of Nueva Segovia.

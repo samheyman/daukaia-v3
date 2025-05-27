@@ -17,12 +17,13 @@ export default function Hero() {
           <p
             className={`${newsreader.className} text-3xl lg:text-5xl text-center tracking-[-2px] lg:leading-[1.2em]`}
           >
-            Providing a <span className="font-bold italic">safe space</span>
+            Your support can make{" "}
+            {/* <span className="font-bold italic">safe space</span> */}
           </p>
           <p
             className={`${newsreader.className} text-3xl lg:text-5xl text-center tracking-[-2px] lg:leading-[1.2em]`}
           >
-            for <span>brighter futures</span>
+            <span>dreams come true</span>
           </p>
           <a
             className="mt-8 text-xl lg:text-3xl font-bold bg-white uppercase rounded-full border border-solid transition-colors flex items-center justify-center text-[--clr-accent-500] py-2 px-4 sm:px-9 hover:bg-clr-accent-500 w-fit"

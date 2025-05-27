@@ -5,7 +5,6 @@ import DaukaiaMeaning from "./components/DaukaiaMeaning";
 import Betty from "./components/Betty";
 import CasaPueblito from "./components/CasaPueblito";
 import JoinUs from "./components/JoinUs";
-import Stats from "./components/Stats";
 import Intro from "./components/Intro";
 
 export default function Home() {
@@ -14,7 +13,6 @@ export default function Home() {
       <Hero />
       <Intro />
       <WhatWeDo />
-      <Stats />
       <WhoWeAre />
       <DaukaiaMeaning />
       <Betty />

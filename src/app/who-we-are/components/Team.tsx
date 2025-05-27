@@ -6,7 +6,7 @@ export default function Team() {
       <div className="flex items-start flex-col">
         <h1 className={`text-6xl ${newsreader.className}`}>Team</h1>
         <h2 className={`text-3xl font-bold ${newsreader.className} my-8`}>
-          Our team in Ocotal
+          The team in Ocotal
         </h2>
         <div className="flex flex-col lg:flex-row justify-center items-center w-full gap-4 lg:gap-8">
           <div className="flex flex-col items-center">
@@ -32,15 +32,15 @@ export default function Team() {
           <div className="flex flex-col items-center">
             <img src="/images/team/eline_green.png" className="w-60" />
             <p className="font-bold mt-4">Eline Lund</p>
-            <p>President (Norway) and Treasurer</p>
+            <p>President</p>
           </div>
-          <div className="flex flex-col items-center">
+          {/* <div className="flex flex-col items-center">
             <img src="/images/team/alberto_green.png" className="w-60" />
             <p className="font-bold mt-4">Alberto Alonso</p>
             <p>President (Spain)</p>
-          </div>
+          </div> */}
         </div>
-        <div className="flex flex-col lg:flex-row justify-center items-center w-full mt-8 gap-8 lg:gap-8">
+        {/* <div className="flex flex-col lg:flex-row justify-center items-center w-full mt-8 gap-8 lg:gap-8">
           <div className="flex flex-col items-center">
             <img src="/images/team/javier.png" className="w-60" />
             <p className="font-bold mt-4">Javier Fernández</p>
@@ -59,49 +59,66 @@ export default function Team() {
             <p className="font-bold mt-4">Ricardo Zabalegui</p>
             <p>Board Member</p>
           </div>
-        </div>
-        <div className="flex flex-col lg:flex-row w-full my-12">
-          <div className="flex-1">
-            <h2 className={`text-3xl font-bold ${newsreader.className} my-8`}>
-              Permanent Volunteers
-            </h2>
-            <ul className="list-disc ml-4">
-              <li className="py-1">
-                <span className="font-bold">Rebecca Nekstad</span> - Health
-                Advisor
-              </li>
-              <li className="py-1">
-                <span className="font-bold">Lilli Pope</span> - Fundraising
-                Coordinator
-              </li>
-              <li className="py-1">
-                <span className="font-bold">Zaneta Statevska</span> -
-                Communications Manager
-              </li>
-              <li className="py-1">
-                <span className="font-bold">Laura Ayerdi</span> - Volunteer
-                Coordinator
-              </li>
-              <li className="py-1">
-                <span className="font-bold">Javier García</span> - Impact
-                Manager
-              </li>
-              <li className="py-1">
-                <span className="font-bold">Jenny Hernandez</span> - Legal
-                Advisor
-              </li>
-              <li className="py-1">
-                <span className="font-bold">
-                  Alexandra Beltran, Marina Graell, Sara Ramio
-                </span>{" "}
-                - Teacher trainers
-              </li>
-            </ul>
+        </div> */}
+        <div className="flex flex-col w-full my-12">
+          <h2 className={`text-3xl font-bold ${newsreader.className} my-8`}>
+            With the support of all our contributors and past team members
+          </h2>
+          <div className="flex flex-col lg:flex-row w-full mb-12">
+            <div className="flex-1">
+              <ul className="list-disc ml-4">
+                <li className="py-1">
+                  <span className="font-bold">Alberto Alonso</span> - President
+                  (Spain)
+                </li>
+                <li className="py-1">
+                  <span className="font-bold">Javier Fernández</span> - Vice
+                  President Coordinator
+                </li>
+                <li className="py-1">
+                  <span className="font-bold">Laura Ayerdi</span> - Secretary
+                </li>
+                <li className="py-1">
+                  <span className="font-bold">Ricardo Zabalegui</span> - Board
+                  Member
+                </li>
+                <li className="py-1">
+                  <span className="font-bold">Rebecca Nekstad</span> - Health
+                  Advisor
+                </li>
+                <li className="py-1">
+                  <span className="font-bold">Lilli Pope</span> - Fundraising
+                  Coordinator
+                </li>
+                <li className="py-1">
+                  <span className="font-bold">Zaneta Statevska</span> -
+                  Communications Manager
+                </li>
+                <li className="py-1">
+                  <span className="font-bold">Laura Ayerdi</span> - Volunteer
+                  Coordinator
+                </li>
+                <li className="py-1">
+                  <span className="font-bold">Javier García</span> - Impact
+                  Manager
+                </li>
+                <li className="py-1">
+                  <span className="font-bold">Jenny Hernandez</span> - Legal
+                  Advisor
+                </li>
+                <li className="py-1">
+                  <span className="font-bold">
+                    Alexandra Beltran, Marina Graell, Sara Ramio
+                  </span>{" "}
+                  - Teacher trainers
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="flex-1">
-            <h2 className={`text-3xl font-bold ${newsreader.className} my-8`}>
+            {/* <h2 className={`text-3xl font-bold ${newsreader.className} my-8`}>
               Co-founders and Advisory Board
-            </h2>
+            </h2> */}
             <ul className="list-disc ml-4">
               <li className="py-1">
                 <span className="font-bold">Carles López</span> - Empieza por
