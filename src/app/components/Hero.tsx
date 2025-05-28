@@ -17,13 +17,13 @@ export default function Hero() {
           <p
             className={`${newsreader.className} text-3xl lg:text-5xl text-center tracking-[-2px] lg:leading-[1.2em]`}
           >
-            With your support
+            Your support
             {/* <span className="font-bold italic">safe space</span> */}
           </p>
           <p
             className={`${newsreader.className} text-3xl lg:text-5xl text-center tracking-[-2px] lg:leading-[1.2em]`}
           >
-            we help make
+            can make
             {/* <span className="font-bold italic">safe space</span> */}
           </p>
           <p
