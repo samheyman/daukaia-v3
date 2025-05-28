@@ -5,23 +5,7 @@ export default function Team() {
     <section className="mx-auto flex w-full lg:w-[min(1200px,(100%-4rem))] flex-col my-12 px-4 lg:px-0">
       <div className="flex items-start flex-col">
         <h1 className={`text-6xl ${newsreader.className}`}>Team</h1>
-        <h2 className={`text-3xl font-bold ${newsreader.className} my-12`}>
-          Team lead
-        </h2>
-        <div className="flex flex-col lg:flex-row justify-center items-center w-full gap-8 lg:gap-8">
-          <div className="flex flex-col items-center ">
-            <div className="border border-4 rounded-full border-[#00b596] p-1">
-              <img src="/images/team/eline_green.png" className="w-60 " />
-            </div>
-            <p className="font-bold mt-4">Eline Lund</p>
-            <p>President</p>
-          </div>
-          {/* <div className="flex flex-col items-center">
-            <img src="/images/team/alberto_green.png" className="w-60" />
-            <p className="font-bold mt-4">Alberto Alonso</p>
-            <p>President (Spain)</p>
-          </div> */}
-        </div>
+
         <h2 className={`text-3xl font-bold ${newsreader.className} my-8`}>
           The team in Ocotal
         </h2>
@@ -42,7 +26,23 @@ export default function Team() {
             <p>Educator (Volunteer)</p>
           </div>
         </div>
-
+        <h2 className={`text-3xl font-bold ${newsreader.className} my-12`}>
+          Team lead
+        </h2>
+        <div className="flex flex-col lg:flex-row justify-center items-center w-full gap-8 lg:gap-8">
+          <div className="flex flex-col items-center ">
+            <div className="border border-4 rounded-full border-[#00b596] p-1">
+              <img src="/images/team/eline_green.png" className="w-60 " />
+            </div>
+            <p className="font-bold mt-4">Eline Lund</p>
+            <p>Managing Director</p>
+          </div>
+          {/* <div className="flex flex-col items-center">
+            <img src="/images/team/alberto_green.png" className="w-60" />
+            <p className="font-bold mt-4">Alberto Alonso</p>
+            <p>President (Spain)</p>
+          </div> */}
+        </div>
         {/* <div className="flex flex-col lg:flex-row justify-center items-center w-full mt-8 gap-8 lg:gap-8">
           <div className="flex flex-col items-center">
             <img src="/images/team/javier.png" className="w-60" />
@@ -65,87 +65,70 @@ export default function Team() {
         </div> */}
         <div className="flex flex-col w-full my-12">
           <h2 className={`text-3xl font-bold ${newsreader.className} my-8`}>
-            Contributors and past team members
+            And all with the kind help and support of our amazing volunteers
           </h2>
           <div className="flex flex-col lg:flex-row w-full mb-12">
             <div className="flex-1">
               <ul className="list-disc ml-4">
                 <li className="py-1">
-                  <span className="font-bold">Alberto Alonso</span> - President
-                  (Spain)
+                  <span className="font-bold">Alberto Alonso</span> - has been
+                  on board ever since volunteering in Ocotal in 2016
                 </li>
                 <li className="py-1">
-                  <span className="font-bold">Javier Fernández</span> - Vice
-                  President Coordinator
+                  <span className="font-bold">Javier Fernández</span> -
+                  co-founder
                 </li>
                 <li className="py-1">
-                  <span className="font-bold">Laura Ayerdi</span> - Secretary
+                  <span className="font-bold">Laura Ayerdi</span> - with her big
+                  heart and passion for international development and
+                  cooperation
                 </li>
                 <li className="py-1">
                   <span className="font-bold">Ricardo Zabalegui</span> - Board
                   Member
                 </li>
                 <li className="py-1">
-                  <span className="font-bold">Rebecca Nekstad</span> - Health
-                  Advisor
+                  <span className="font-bold">Rebecca Nekstad</span> - from
+                  brainstorming ideas and strategy to promote health to
+                  proofreading project applications
                 </li>
                 <li className="py-1">
-                  <span className="font-bold">Lilli Pope</span> - Fundraising
-                  Coordinator
+                  <span className="font-bold">Lilli Pope</span> - with her drive
+                  and creative fundraising ideas
                 </li>
                 <li className="py-1">
-                  <span className="font-bold">Zaneta Statevska</span> -
-                  Communications Manager
-                </li>{" "}
-                <li className="py-1">
-                  <span className="font-bold">Laura Ayerdi</span> - Volunteer
-                  Coordinator
-                </li>{" "}
-                <li className="py-1">
-                  <span className="font-bold">Javier García</span> - Impact
-                  Manager
+                  <span className="font-bold">Zaneta Statevska</span> - giving
+                  our communications plan rigor
                 </li>
-              </ul>
-            </div>
+                <li className="py-1">
+                  <span className="font-bold">Jenny Hernandez</span> - helping
+                  out with legal stuff
+                </li>
+                <li className="py-1">
+                  <span className="font-bold">Alexandra Beltran</span> - who has
+                  gifted us a wonderful logo and made the design for our website
+                </li>
+                <li className="py-1">
+                  <span className="font-bold">Sam Heyman</span> - our very own
+                  web developer and Ambassador (and Team Lead's husband)
+                </li>
 
-            <div className="flex-1">
-              {/* <h2 className={`text-3xl font-bold ${newsreader.className} my-8`}>
-              Co-founders and Advisory Board
-            </h2> */}
-              <ul className="list-disc ml-4">
                 <li className="py-1">
-                  <span className="font-bold">Jenny Hernandez</span> - Legal
-                  Advisor
+                  <span className="font-bold">
+                    Paty, Criky, Marta, Lucas, Maialen, Carla, Anna, Núria,
+                    Paula, Mònica, María, Pepe, Alberto, Alex, Roger, Clara,
+                    Manu, Natàlia, Monica, Riky, Carmen, Laura, Javi, Marina,
+                    Sara, Ale, Alicia, María and Melani
+                  </span>{" "}
+                  - amazing teachers, social workers, photographers, who have
+                  travelled all the way to Ocotal to volunteer
                 </li>
                 <li className="py-1">
                   <span className="font-bold">
-                    Alexandra Beltran, Marina Graell, Sara Ramio
+                    Pablo Millanes, Carles López, Daniel Olalla, Jara Costa,
+                    Javier Fernández, Julián Martín
                   </span>{" "}
-                  - Teacher trainers
-                </li>
-                <li className="py-1">
-                  <span className="font-bold">Carles López</span> - Empieza por
-                  Educar
-                </li>
-                <li className="py-1">
-                  <span className="font-bold">Daniel Olalla</span> - Universidad
-                  Rey Juan Carlos
-                </li>
-                <li className="py-1">
-                  <span className="font-bold">Jara Costa</span> - Institut
-                  Escola Renaixença
-                </li>
-                <li className="py-1">
-                  <span className="font-bold">Javier Fernández</span> -
-                  Instituto Cervantes
-                </li>
-                <li className="py-1">
-                  <span className="font-bold">Julián Martín</span> - CP IFP
-                  Federica Montseny
-                </li>
-                <li className="py-1">
-                  <span className="font-bold">Pablo Millanes</span> - Teach for
-                  All
+                  - thanks to them for founding Daukaia in 2012
                 </li>
               </ul>
             </div>

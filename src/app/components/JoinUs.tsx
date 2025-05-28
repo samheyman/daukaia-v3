@@ -14,6 +14,12 @@ export default function JoinUs() {
           you want to involve your class, your company or a group of friends?
         </p>
         <p className="text-lg md:text-base">
+          Nicaragua is one of the poorest countries in Latin America, and many
+          children in Ocotal grow up facing instability, poverty, and limited
+          opportunities. In the face of these challenges, what every child needs
+          is hope, support, and the chance to dream.
+        </p>
+        <p className="text-lg md:text-base">
           Your support empowers children like Betty to build better lives for
           themselves and their families by providing the safety, skills, and
           mindset they need to follow their dreams and contribute positively to

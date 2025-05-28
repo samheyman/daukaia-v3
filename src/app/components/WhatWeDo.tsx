@@ -11,30 +11,23 @@ export default function WhatWeDo() {
           </h1>
 
           <p className="text-lg md:text-base my-4">
-            Nicaragua is one of the poorest countries in South America, and the
-            children we work with grow up in a reality marked by instability,
-            poverty, and a lack of opportunity.
+            Daukaia helps children and families in Ocotal build a safer, more
+            sustainable future. A future grounded in learning, creativity, care,
+            and community.
           </p>
           <p className="text-lg md:text-base my-4">
-            Our goal is to help children in the town of Ocotal overcome these
-            challenges and build a better future for themselves and their
-            communities by providing them a safe space, caring adults,
-            education, emotional support, health and personal development -
-            knowledge that can change lives.
+            We provide a safe space where children can grow, supported by
+            trusted adults and provided with opportunities to learn, play, and
+            thrive. Through education, emotional support, personal development,
+            and environmental awareness, we help young people discover their
+            strengths and shape their own futures.
           </p>
-          {/* <p className="text-lg md:text-base my-4">
-            Our goal is to ensure that children and young people in Ocotal,
-            Nicaragua, gain safety, knowledge, and opportunities to build a
-            better future for themselves and their communities. We do this by
-            supporting personal and social development through play, learning,
-            and a sense of belonging.
-          </p> */}
+
           <p className="text-lg md:text-base my-4">
-            We support personal and social development through play, learning,
-            and a sense of belonging, and we encourage children to explore their
-            creativity, develop their talents, and find sustainable ways to
-            contribute to their community and the environment, build strong
-            relationships and transform their world from the ground up.
+            We believe change begins with belonging. That’s why we nurture
+            strong relationships, celebrate local culture and creativity, and
+            work alongside families and schools to plant the seeds of lasting
+            transformation.
           </p>
 
           <div className="flex my-8 flex-row justify-center lg:justify-start items-center">
