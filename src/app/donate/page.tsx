@@ -95,14 +95,14 @@ export default function Home() {
                 </ul>
                 <span>or</span>
                 <a
-                  className="block"
+                  className="block mt-4"
                   target="_blank"
                   href="https://qr.vipps.no/donations/999705?amount=20000&reference="
                 >
                   <img
                     src="/images/vipps_button.png"
                     alt="VIPPS logo"
-                    className="inline h-8"
+                    className="inline h-10"
                   />
                 </a>
               </li>
@@ -141,54 +141,13 @@ export default function Home() {
           You retain control of your donation and can effortlessly manage the
           way you give at any time. A donor account is set up automatically for
           recurring donations and you will receive an email with your account
-          info. You can easily access your account through the Donor Login on
+          info. You can easily access your account through the Donor Login at{" "}
           <a href="www.donorbox.org" target="_blank" className="underline">
             https://donorbox.org/daukaia
           </a>{" "}
           to manage or cancel your donations any time.
         </p>
-        {/* <p className="font-bold pt-8 pb-2">
-          Are there any alternative ways I can donate?
-        </p>
-        <p className="pl-4">
-          Of course! If you for any reason prefer not using our online form,
-          there are several other options available:
-        </p>
-        <ul className="list-disc ml-4 pl-4">
-          <li className="py-1">
-            You can make a direct wire transfer to one of our bank accounts:
-            <ul className="">
-              <li className="py-2">
-                <span className="font-semibold">Asociación Daukaia</span>
-                <ul>
-                  <li>IBAN: ES85 00491954112010009978</li>
-                  <li>BIC: BSCHESMMXXX</li>
-                </ul>
-              </li>
-              <li className="">
-                <span className="font-semibold">Daukaia Norge</span>
-                <ul>
-                  <li>IBAN: NO1315067985335</li>
-                  <li>BIC: DNBANOKK</li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li className="py-1">
-            If you live in Norway, you can donate by Vipps to #11760
-          </li>
-          <li className="py-1">
-            If you live in Spain, you can get tax deductions from donations made
-            through{" "}
-            <a
-              href="https://www.migranodearena.org/usuario/daukaia-a09"
-              target="_blank"
-              className="underline"
-            >
-              https://www.migranodearena.org/usuario/daukaia-a09
-            </a>
-          </li>
-        </ul> */}
+
         <p className="font-bold pt-8 pb-2 text-lg md:text-base">
           How will you inform me about the developments of your work?
         </p>
@@ -197,27 +156,27 @@ export default function Home() {
           updates on our work. We won’t saturate your inbox, so don’t worry, and
           you can unsubscribe if you’d rather just follow our work through
           social media. We love talking about what we do, and we’re always open
-          for a video call to let you in on the juicy stuff.{" "}
+          for a video call to let you in on the juicy stuff.
         </p>
         <p className="font-bold pt-8 pb-2 text-lg md:text-base">
           Are my donations tax deductible?
         </p>
         <ul className="list bullet pl-4 text-lg md:text-base">
-          <li className="py-1">
+          <li className="">
             If you live in Spain, you can get tax deductions from donations made
             through{" "}
             <a
               href="https://www.migranodearena.org/usuario/daukaia-a09"
               target="_blank"
             >
-              https://www.migranodearena.org/usuario/daukaia-a09
+              Migranodearena
             </a>
           </li>
-          <li className="py-1">
+          <li className="">
             Donations made in Norway are not yet tax deductible, but we are
             working on it.
           </li>
-          <li className="py-1">
+          <li className="">
             Donations made from other countries are unfortunately not
             deductible.
           </li>
