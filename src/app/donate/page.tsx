@@ -161,26 +161,23 @@ export default function Home() {
         <p className="font-bold pt-8 pb-2 text-lg md:text-base">
           Are my donations tax deductible?
         </p>
-        <ul className="list bullet pl-4 text-lg md:text-base">
-          <li className="">
-            If you live in Spain, you can get tax deductions from donations made
-            through{" "}
-            <a
-              href="https://www.migranodearena.org/usuario/daukaia-a09"
-              target="_blank"
-            >
-              Migranodearena
-            </a>
-          </li>
-          <li className="">
-            Donations made in Norway are not yet tax deductible, but we are
-            working on it.
-          </li>
-          <li className="">
-            Donations made from other countries are unfortunately not
-            deductible.
-          </li>
-        </ul>
+        <p className="text-lg md:text-base">
+          If you live in Spain, you can get tax deductions from donations made
+          through{" "}
+          <a
+            href="https://www.migranodearena.org/usuario/daukaia-a09"
+            target="_blank"
+          >
+            Migranodearena
+          </a>
+        </p>
+        <p className="text-lg md:text-base">
+          Donations made in Norway are not yet tax deductible, but we are
+          working on it.
+        </p>
+        <p className="text-lg md:text-base">
+          Donations made from other countries are unfortunately not deductible.
+        </p>
         <p className="font-bold pt-8 pb-2 text-lg md:text-base">
           I really want to be involved in what’s happening. Can I?
         </p>
