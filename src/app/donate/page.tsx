@@ -86,7 +86,7 @@ export default function Home() {
           <span className="font-bold">Bank transfer</span> - You can make a
           direct transfer to one of our bank accounts:
         </h2> */}
-            <ul className="">
+            <ul className="text-lg md:text-base my-4">
               <li className="py-4">
                 <span className="font-semibold">Daukaia Norge (Norway)</span>
                 <ul>
@@ -94,7 +94,15 @@ export default function Home() {
                   <li>BIC: DNBANOKK</li>
                 </ul>
                 <ul>
-                  <li>or Vipps to #11760</li>
+                  <li>
+                    or{" "}
+                    <a
+                      target="_blank"
+                      href="https://qr.vipps.no/donations/999705?amount=20000&reference="
+                    >
+                      Pay with VIPS
+                    </a>
+                  </li>
                 </ul>
               </li>
               <li className="py-4">
@@ -110,11 +118,12 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="mx-auto flex w-full lg:w-[min(1200px,(100%-4rem))] flex-col mt-12"></section>
       <section className="mx-auto flex w-full lg:w-[min(1200px,(100%-4rem))] flex-col my-12 px-4 lg:px-0">
         <h1 className={`${newsreader.className} text-6xl mt-4 mb-1`}>FAQ</h1>
-        <p className="font-bold pt-8 pb-2">How will my donation be spent?</p>
-        <p className="pl-4">
+        <p className="font-bold pt-8 pb-2text-lg md:text-base">
+          How will my donation be spent?
+        </p>
+        <p className="text-lg md:text-base text-lg md:text-base">
           100% of your donation goes directly to Ocotal. Our main expenses are
           our educators’ salaries, maintenance of our space, the purchase of
           educational resources, food and other costs needed to help us
@@ -124,10 +133,10 @@ export default function Home() {
           work and commitment.
         </p>
 
-        <p className="font-bold pt-8 pb-2">
+        <p className="font-bold pt-8 pb-2 text-lg md:text-base">
           How can I manage the amount and frequency of my donations?
         </p>
-        <p className="pl-4">
+        <p className="text-lg md:text-base">
           You retain control of your donation and can effortlessly manage the
           way you give at any time. A donor account is set up automatically for
           recurring donations and you will receive an email with your account
@@ -179,18 +188,20 @@ export default function Home() {
             </a>
           </li>
         </ul> */}
-        <p className="font-bold pt-8 pb-2">
+        <p className="font-bold pt-8 pb-2 text-lg md:text-base">
           How will you inform me about the developments of your work?
         </p>
-        <p className="pl-4">
+        <p className="text-lg md:text-base">
           We will send you newsletters from time to time to give you the latest
           updates on our work. We won’t saturate your inbox, so don’t worry, and
           you can unsubscribe if you’d rather just follow our work through
           social media. We love talking about what we do, and we’re always open
           for a video call to let you in on the juicy stuff.{" "}
         </p>
-        <p className="font-bold pt-8 pb-2">Are my donations tax deductible?</p>
-        <ul className="list bullet pl-4">
+        <p className="font-bold pt-8 pb-2 text-lg md:text-base">
+          Are my donations tax deductible?
+        </p>
+        <ul className="list bullet pl-4 text-lg md:text-base">
           <li className="py-1">
             If you live in Spain, you can get tax deductions from donations made
             through{" "}
@@ -210,11 +221,13 @@ export default function Home() {
             deductible.
           </li>
         </ul>
-        <p className="font-bold pt-8 pb-2">
+        <p className="font-bold pt-8 pb-2 text-lg md:text-base">
           I really want to be involved in what’s happening. Can I?
         </p>
-        <p className="pl-4">Of course! Let’s chat and plan how.</p>
-        <p className="pl-4">
+        <p className="text-lg md:text-base">
+          Of course! Let’s chat and plan how.
+        </p>
+        <p className="text-lg md:text-base">
           Contact us at:{" "}
           <a href="mailto:hello@daukaia.org" className="underline">
             hello@daukaia.org
