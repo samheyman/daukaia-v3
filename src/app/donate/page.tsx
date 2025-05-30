@@ -54,7 +54,7 @@ export default function Home() {
       > */}
       <section className="mx-auto flex w-full lg:w-[min(1200px,(100%-4rem))] flex-col mt-12 px-4 lg:px-0 justify-start">
         <div className="flex flex-col lg:flex-row justify-between mt-4">
-          <div className="flex flex-col flex-1 ">
+          <div className="flex flex-col flex-1 overflow-x-scroll">
             <h3 className={`${newsreader.className} text-3xl mt-2 mb-6`}>
               Via DonorBox
             </h3>
@@ -93,17 +93,18 @@ export default function Home() {
                   <li>IBAN: NO1315067985335</li>
                   <li>BIC: DNBANOKK</li>
                 </ul>
-                <ul>
-                  <li>
-                    or{" "}
-                    <a
-                      target="_blank"
-                      href="https://qr.vipps.no/donations/999705?amount=20000&reference="
-                    >
-                      Pay with VIPS
-                    </a>
-                  </li>
-                </ul>
+                <span>or</span>
+                <a
+                  className="block"
+                  target="_blank"
+                  href="https://qr.vipps.no/donations/999705?amount=20000&reference="
+                >
+                  <img
+                    src="/images/vipps_button.png"
+                    alt="VIPPS logo"
+                    className="inline h-8"
+                  />
+                </a>
               </li>
               <li className="py-4">
                 <span className="font-semibold">
@@ -120,7 +121,7 @@ export default function Home() {
       </section>
       <section className="mx-auto flex w-full lg:w-[min(1200px,(100%-4rem))] flex-col my-12 px-4 lg:px-0">
         <h1 className={`${newsreader.className} text-6xl mt-4 mb-1`}>FAQ</h1>
-        <p className="font-bold pt-8 pb-2text-lg md:text-base">
+        <p className="font-bold pt-8 pb-2 text-lg md:text-base">
           How will my donation be spent?
         </p>
         <p className="text-lg md:text-base text-lg md:text-base">
