@@ -7,7 +7,7 @@ export default function Team() {
         <h1 className={`text-6xl ${newsreader.className}`}>Team</h1>
 
         <h2 className={`text-3xl font-bold ${newsreader.className} my-8`}>
-          The team in Ocotal
+          The team
         </h2>
         <div className="flex flex-col lg:flex-row justify-center items-center w-full gap-4 lg:gap-8">
           <div className="flex flex-col items-center">
@@ -20,16 +20,6 @@ export default function Team() {
             <p className="font-bold mt-4">María Esther Pérez Gonzalez</p>
             <p>Community Impact Officerand Educator</p>
           </div>
-          <div className="flex flex-col items-center">
-            <img src="/images/team/mayelling.png" className="w-60" />
-            <p className="font-bold mt-4">Mayelling Gonzalez</p>
-            <p>Educator (Volunteer)</p>
-          </div>
-        </div>
-        <h2 className={`text-3xl font-bold ${newsreader.className} my-12`}>
-          Team lead
-        </h2>
-        <div className="flex flex-col lg:flex-row justify-center items-center w-full gap-8 lg:gap-8">
           <div className="flex flex-col items-center ">
             <div className="border border-4 rounded-full border-[#00b596] p-1">
               <img src="/images/team/eline_green.png" className="w-60 " />
@@ -37,12 +27,9 @@ export default function Team() {
             <p className="font-bold mt-4">Eline Lund</p>
             <p>Managing Director</p>
           </div>
-          {/* <div className="flex flex-col items-center">
-            <img src="/images/team/alberto_green.png" className="w-60" />
-            <p className="font-bold mt-4">Alberto Alonso</p>
-            <p>President (Spain)</p>
-          </div> */}
         </div>
+        
+        
         {/* <div className="flex flex-col lg:flex-row justify-center items-center w-full mt-8 gap-8 lg:gap-8">
           <div className="flex flex-col items-center">
             <img src="/images/team/javier.png" className="w-60" />
@@ -112,7 +99,8 @@ export default function Team() {
                   <span className="font-bold">Sam Heyman</span> - our very own
                   web developer and Ambassador (and Team Lead's husband)
                 </li>
-
+<li className="py-1">
+                  <span className="font-bold">Mayelling Gonzalez</span> - Educator (Volunteer)</li>
                 <li className="py-1">
                   <span className="font-bold">
                     Paty, Criky, Marta, Lucas, Maialen, Carla, Anna, Núria,
