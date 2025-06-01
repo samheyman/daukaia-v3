@@ -52,7 +52,7 @@ export default function Team() {
         </div> */}
         <div className="flex flex-col w-full my-12">
           <h2 className={`text-3xl font-bold ${newsreader.className} my-8`}>
-            And all with the kind help and support of our amazing volunteers
+            And all with the kind help and support of amazing people 
           </h2>
           <div className="flex flex-col lg:flex-row w-full mb-12">
             <div className="flex-1">
